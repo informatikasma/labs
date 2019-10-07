@@ -134,7 +134,7 @@ printf("hello, %s\n", name);
 
 #### *Use of undeclared identifier?*
 
-Melihat di bawah, mungkin di atas error-error lainnya?
+Melihat tulisan seperti berikut, mungkin di atas error-error lainnya?
 
 ```
 error: use of undeclared identifier 'string'; did you mean 'stdin'?
