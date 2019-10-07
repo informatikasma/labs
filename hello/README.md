@@ -12,153 +12,149 @@ Selanjutnya, di *terminal window* di kanan bawah, segera di sebelah kanan tanda 
 ls
 ```
 
-Anda seharusnya melihat `hello.c` saja? Itu karena Anda baru saja mendaftarkan file di folder yang sama, kali ini menggunakan *command-line interface* (CLI), hanya menggunakan keyboard Anda, dibandingkan dengan *graphical user interface* (GUI) yang diwakili oleh ikon folder itu. Secara khusus, Anda *mengeksekusi* (mis., menjalankan) perintah yang disebut `ls`, yang merupakan singkatan untuk "*list*." (Ini adalah perintah yang sering digunakan sehingga penulisnya menyebutnya hanya `ls` untuk menghemat penekanan tombol.) Masuk akal?
+Anda seharusnya melihat `hello.c` saja? Itu karena Anda baru saja mendaftarkan file di folder yang sama, kali ini menggunakan *command-line interface* (CLI), hanya menggunakan keyboard Anda, dibandingkan dengan *graphical user interface* (GUI) yang diwakili oleh ikon folder itu. Secara khusus, Anda *mengeksekusi* (mis., menjalankan) perintah yang disebut `ls`, yang merupakan singkatan untuk *"list."* (Ini adalah perintah yang sering digunakan sehingga penulisnya menyebutnya hanya `ls` untuk menghemat penekanan tombol.) Masuk akal?
 
-Di sini, untuk mengeksekusi (mis., menjalankan) perintah berarti mengetikkannya ke jendela terminal dan kemudian tekan Enter. Perintah sifatnya "*case-sensitive*" (kapitalisasi berpengaruh) jadi pastikan untuk tidak mengetikkan huruf kapital ketika maksud Anda huruf kecil atau sebaliknya.
+Di sini, untuk mengeksekusi (mis., menjalankan) perintah berarti mengetikkannya ke jendela terminal dan kemudian tekan Enter. Perintah sifatnya *"case-sensitive"* (kapitalisasi berpengaruh), jadi pastikan untuk tidak mengetikkan huruf kapital ketika maksud Anda huruf kecil atau sebaliknya.
 
 {% next %}
 
-## Compiling Programs
+## Compiling Program
 
-Now, before we can execute the program at right, recall that we must *compile* it with a *compiler* (e.g., `clang`), translating it from *source code* into *machine code* (i.e., zeroes and ones). Execute the command below to do just that:
+Sekarang, sebelum kita dapat menjalankan program di sebelah kanan, ingat bahwa kita harus melakukan *compile* dengan *compiler* (misalnya, `clang`), menerjemahkannya dari *source code* ke *machine code* (yaitu, nol dan satu). Jalankan perintah di bawah ini untuk melakukannya:
 
 ```
 clang hello.c
 ```
 
-And then execute this one again:
+Dan kemudian jalankan yang ini lagi:
 
 ```
 ls
 ```
 
-This time, you should see not only `hello.c` but `a.out` listed as well? (You can see the same graphically if you click that folder icon again.) That's because `clang` has translated the source code in `hello.c` into machine code in `a.out`, which happens to stand for "assembler output," but more on that another time.
+Kali ini, Anda seharusnya melihat tidak hanya `hello.c` tetapi` a.out` terdaftar juga? (Anda dapat melihat hal yang sama secara grafis jika Anda mengklik ikon folder itu lagi.) Itu karena `clang` telah menerjemahkan *source code* di` hello.c` ke dalam *machine code* di `a.out`, yang kebetulan merupakan singkatan dari *"assembler output,"* tetapi kita akan bahas tentang itu lain kali.
 
-Now run the program by executing the below.
+Sekarang jalankan program dengan mengeksekusi di bawah ini.
 
 ```
 ./a.out
 ```
 
-Hello, world, indeed!
+*Hello, world*, tentunya!
 
 {% next %}
 
-## Naming Programs
+## Memberi Nama Program
 
-Now, `a.out` isn't the most user-friendly name for a program. Let's compile `hello.c` again, this time saving the machine code in a file called, more aptly, `hello`. Execute the below.
+Sekarang, `a.out` bukan nama yang paling *user-friendly* untuk suatu program. Mari kita kompilasi `hello.c` lagi, kali ini menyimpan *machine code* dalam sebuah file bernama, lebih tepatnya,` hello`. Jalankan di bawah ini.
 
 ```
 clang -o hello hello.c
 ```
 
-Take care not to overlook any of those spaces therein! Then execute this one again:
+Berhati-hatilah untuk tidak mengabaikan penulisan spasi tersebut! Kemudian jalankan yang ini lagi:
 
 ```
 ls
 ```
 
-You should now see not only `hello.c` (and `a.out` from before) but also `hello` listed as well? That's because `-o` is a *command-line argument*, sometimes known as a *flag* or a *switch*, that tells `clang` to output (hence the `o`) a file called `hello`. Execute the below to try out the newly named program.
+Anda seharusnya sekarang tidak hanya melihat `hello.c` (dan` a.out` dari sebelumnya) tetapi juga `hello` terdaftar juga? Itu karena `-o` adalah argumen *command-line*, kadang-kadang dikenal sebagai *flag* atau *switch*, yang memberitahu` clang` untuk menghasilkan *output* (makanya `o`) sebuah file bernama` hello`. Jalankan di bawah ini untuk mencoba program yang baru saja diberi nama.
 
 ```
 ./hello
 ```
 
-Hello there again!
+*Hello* lagi!
 
 {% next %}
 
-## Making Things Easier
+## Membuat Segala Sesuatu Lebih Mudah
 
-Recall that we can automate the process of executing `clang`, letting `make` figure out how to do so for us, thereby saving us some keystrokes. Execute the below to compile this program one last time.
-
-```
-make hello
-```
-
-You should see that `make` executes `clang` with even more command-line arguments for you? More on those, too, another time!
-
-Now execute the program itself one last time by executing the below.
-
-```
-./hello
-```
-
-Phew!
-
-## Getting User Input
-
-Suffice it to say, no matter how you compile or execute this program, it only ever prints `hello, world`. Let's personalize it a bit, just as we did in class.
-
-Modify this program in such a way that it first prompts the user for their name and then prints `hello, so-and-so`, where `so-and-so` is their actual name.
-
-As before, be sure to compile your program with:
+Ingatlah bahwa kita dapat mengotomasikan proses mengeksekusi `clang`, memberikan `make` tugas mencari cara untuk melakukannya bagi kita, dengan demikian kita dapat menghemat beberapa ketikan. Jalankan di bawah ini untuk mengkompilasi program ini untuk yang terakhir kalinya.
 
 ```
 make hello
 ```
 
-And be sure to execute your program, testing it a few times with different inputs, with:
+Anda seharusnya melihat bahwa `make` mengeksekusi `clang` dengan lebih banyak *command-line arguments* untuk Anda? Bahasannya lebih lanjut, juga, di kesempatan lain!
+
+Sekarang jalankan program itu sendiri untuk terakhir kalinya dengan mengeksekusi di bawah ini.
 
 ```
 ./hello
 ```
 
-### Staff's Solution
+Fiuh!
 
-To try out the staff's implementation of this problem, execute
+## Mendapatkan Input Pengguna
 
-<pre>
+Bisa dikatakan, tidak peduli bagaimana Anda mengkompilasi atau menjalankan program ini, ia hanya akan mencetak `hello, world`. Mari kita sedikit mempersonalisasikannya, sama seperti yang kita lakukan di kelas.
+
+Ubah program ini sedemikian rupa sehingga di awal meminta pengguna siapa nama mereka dan kemudian mencetak `hello, begini-dan-begitu`, di mana `begini-dan-begitu` adalah nama sebenarnya.
+
+Seperti sebelumnya, pastikan untuk mengkompilasi program Anda dengan:
+
+```
+make hello
+```
+
+Dan pastikan untuk menjalankan program Anda, mengujinya beberapa kali dengan input berbeda, dengan:
+
+```
 ./hello
-</pre>
+```
 
-within [this sandbox](http://bit.ly/2Qp0a2g).
+### Solusi Pengajar
 
-### Walkthrough
+Untuk mencoba implementasi pengajar dari masalah ini, jalankan
 
-{% video https://www.youtube.com/watch?v=wSk1KSDUEYA %}
+```
+./hello
+```
 
-### Hints
+dalam [sandbox ini](http://bit.ly/2Qp0a2g).
 
-#### Don't recall how to prompt the user for their name?
+### Petunjuk
 
-Recall that you can use `get_string` as follows, storing its *return value* in a variable called `name` of type `string`.
+#### Tidak ingat bagaimana cara meminta nama kepada pengguna?
+
+Ingatlah bahwa Anda dapat menggunakan `get_string` sebagai berikut, menyimpan *return value* dalam variabel yang disebut `nama` dari tipe `string`.
 
 ```c
 string name = get_string("What is your name?\n");
 ```
 
-#### Don't recall how to format a string?
+#### Tidak ingat cara memformat `string`?
 
-Don't recall how to join (i.e., concatenate) the user's name with a greeting? Recall that you can use `printf` not only to print but to format a string (hence, the `f` in `printf`), a la the below, wherein `name` is a `string`.
+Tidak ingat bagaimana cara *join* (mis., menyatukan) nama pengguna dengan sebuah salam? Ingatlah bahwa Anda dapat menggunakan `printf` tidak hanya untuk mencetak tetapi juga untuk memformat *string* (karenanya,`f` dalam `printf`), seperti di bawah ini, di mana `name` adalah `string`.
 
 ```c
 printf("hello, %s\n", name);
 ```
 
-#### Use of undeclared identifier?
+#### *Use of undeclared identifier?*
 
-Seeing the below, perhaps atop other errors?
+Melihat di bawah, mungkin di atas error-error lainnya?
 
 ```
 error: use of undeclared identifier 'string'; did you mean 'stdin'?
 ```
 
-Recall that, to use `get_string`, you need to include `cs50.h` (in which `get_string` is *declared*) atop a file, as with:
+Ingat bahwa, untuk menggunakan `get_string`, Anda harus menyertakan `cs50.h` (di mana `get_string` *dideklarasikan*) di atas file, seperti dengan:
 
 ```c
 #include <cs50.h>
 ```
 
-### How to Test Your Code
+### Cara Menguji Kode Anda
 
-Execute the below to evaluate the correctness of your code using `check50`. But be sure to compile and test it yourself as well!
+Jalankan di bawah ini untuk mengevaluasi kebenaran kode Anda menggunakan `check50`. Tapi pastikan untuk mengkompilasi dan mengujinya oleh Anda sendiri juga!
 
 ```
 check50 cs50/problems/2019/fall/hello
 ```
 
-Execute the below to evaluate the style of your code using `style50`.
+Jalankan di bawah ini untuk mengevaluasi gaya kode Anda menggunakan `style50`.
 
 ```
 style50 hello.c
@@ -166,10 +162,10 @@ style50 hello.c
 
 {% next %}
 
-## How to Submit
+## Cara Mengirim
 
-Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
+Jalankan di bawah ini, masuk dengan nama pengguna dan kata sandi GitHub Anda saat diminta. Untuk keamanan, Anda akan melihat tanda bintang (`*`) alih-alih karakter sebenarnya dalam kata sandi Anda.
 
 ```
-submit50 cs50/problems/2019/fall/hello
+submit50 informatikasma/problems/2019/hello
 ```
