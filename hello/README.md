@@ -1,20 +1,20 @@
 # Hello
 
-## Listing Files
+## Mendaftar File
 
 Hello, world! Di sebelah kanan, di *text editor*, adalah program pertama yang kita tulis dalam C, dalam file bernama `hello.c`.
 
-Click the folder icon, and you'll see that `hello.c` is the only file that's present at the moment. Click the folder icon again to hide all that.
+Klik ikon folder di pojok kanan atas, dan Anda akan melihat bahwa `hello.c` adalah satu-satunya file yang ada saat ini. Klik ikon folder lagi untuk menyembunyikan semuanya.
 
-Next, in the *terminal window* at right, immediately to the right of the dollar sign (`$`), otherwise known as a *prompt*, type precisely the below (in lowercase), then hit Enter:
+Selanjutnya, di *terminal window* di kanan bawah, segera di sebelah kanan tanda dolar (`$`), atau dikenal sebagai *prompt*, ketikkan persis di bawah ini (dalam huruf kecil), lalu tekan Enter:
 
 ```
 ls
 ```
 
-You should see just `hello.c`? That's because you've just listed the files in that same folder, this time using a command-line interface (CLI), using just your keyboard, rather than the graphical user interface (GUI) represented by that folder icon. In particular, you *executed* (i.e., ran) a command called `ls`, which is shorthand for "list." (It's such a frequently used command that its authors called it just `ls` to save keystrokes.) Make sense?
+Anda seharusnya melihat `hello.c` saja? Itu karena Anda baru saja mendaftarkan file di folder yang sama, kali ini menggunakan *command-line interface* (CLI), hanya menggunakan keyboard Anda, dibandingkan dengan *graphical user interface* (GUI) yang diwakili oleh ikon folder itu. Secara khusus, Anda *mengeksekusi* (mis., menjalankan) perintah yang disebut `ls`, yang merupakan singkatan untuk "*list*." (Ini adalah perintah yang sering digunakan sehingga penulisnya menyebutnya hanya `ls` untuk menghemat penekanan tombol.) Masuk akal?
 
-Here on out, to execute (i.e., run) a command means to type it into a terminal window and then hit Enter. Commands are "case-sensitive," so be sure not to type in uppercase when you mean lowercase or vice versa.
+Di sini, untuk mengeksekusi (mis., menjalankan) perintah berarti mengetikkannya ke jendela terminal dan kemudian tekan Enter. Perintah sifatnya "*case-sensitive*" (kapitalisasi berpengaruh) jadi pastikan untuk tidak mengetikkan huruf kapital ketika maksud Anda huruf kecil atau sebaliknya.
 
 {% next %}
 
