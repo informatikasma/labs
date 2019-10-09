@@ -20,7 +20,9 @@ Untuk masalah ini, kita akan fokus pada konversi hanya dalam satu arah: _dari_ F
 C = (F - 32) * 5 / 9
 ```
 
-Mari kita lakukan tes singkat untuk memastikan semuanya berjalan seperti yang diharapkan. Orang-orang di Amerika Serikat tahu suhu tubuh manusia normal adalah 98.6&deg;F. Jika kita memasukkan "98.6" ke dalam rumus menggantikan &deg;F dan melakukan perhitungan (98.6 dikurangi 32 adalah 66.6, 66.6 dikalikan dengan 5 adalah 333, 333 dibagi 9 adalah 37) kita mendapatkan 37&deg;C yang bagi orang-orang di seluruh dunia tahu bahwa itu suhu tubuh manusia normal. Jadi itu benar. Demikian pula jika kita memasukkan 32&deg;F (titik beku air) ke dalam formula yang dikonversi menjadi 0&deg;C, dan 212&deg;F (titik didih air) tampaknya setara dengan 100&deg;C. Sepertinya semuanya berjalan dengan baik.
+Perlu diketaui, orang Amerika Serikat, dan juga komputer, menyatakan tanda desimal dengan simbol titik. Maka untuk sementara kita akan menggunakan tanda titik sebagai pembatas desimal.
+
+Mari kita lakukan tes singkat untuk memastikan semuanya berjalan seperti yang diharapkan. Orang-orang di Amerika Serikat tahu suhu tubuh manusia normal adalah 98.6&deg;F (perhatikan tanda titik yang digunakan sebagai pembatas desimal). Jika kita memasukkan "98.6" ke dalam rumus menggantikan &deg;F dan melakukan perhitungan (98.6 dikurangi 32 adalah 66.6, 66.6 dikalikan dengan 5 adalah 333, 333 dibagi 9 adalah 37) kita mendapatkan 37&deg;C yang bagi orang-orang di seluruh dunia tahu bahwa itu suhu tubuh manusia normal. Jadi itu benar. Demikian pula jika kita memasukkan 32&deg;F (titik beku air) ke dalam formula yang dikonversi menjadi 0&deg;C, dan 212&deg;F (titik didih air) tampaknya setara dengan 100&deg;C. Sepertinya semuanya berjalan dengan baik.
 
 {% next %}
 
