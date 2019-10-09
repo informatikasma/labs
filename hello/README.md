@@ -151,7 +151,7 @@ Ingat bahwa, untuk menggunakan `get_string`, Anda harus menyertakan `cs50.h` (di
 Jalankan di bawah ini untuk mengevaluasi kebenaran kode Anda menggunakan `check50`. Tapi pastikan untuk mengkompilasi dan mengujinya oleh Anda sendiri juga!
 
 ```
-check50 cs50/problems/2019/fall/hello
+check50 informatikasma/problems/2019/hello
 ```
 
 Jalankan di bawah ini untuk mengevaluasi gaya kode Anda menggunakan `style50`.
