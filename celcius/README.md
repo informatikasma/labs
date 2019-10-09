@@ -100,7 +100,7 @@ check50 informatikasma/problems/2019/celcius
 Jalankan di bawah ini untuk mengevaluasi gaya kode Anda menggunakan `style50`.
 
 ```
-style50 hello.c
+style50 celcius.c
 ```
 
 {% next %}
