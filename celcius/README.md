@@ -67,8 +67,8 @@ Tulis program yang mengubah suhu dalam Fahrenheit menjadi Celcius, sesuai dengan
 
 <pre>
 $ <u>./fahrenheit</u>
-F: <u>100</u>
-C: 212.0
+F: <u>212</u>
+C: 100.0
 </pre>
 
 Untuk mengatasi masalah ini, Anda tidak perlu melakukan hal yang lebih rumit daripada menggunakan pengetahuan C yang ada saat ini, dan informasi yang terkandung dalam spesifikasi ini, termasuk rumus konversi suhu di atas. Tidak peduli bagaimana pengguna memasukkan suhu dalam Fahrenheit (maksudnya, tidak peduli berapa banyak digit desimal yang mereka gunakan), pastikan untuk menampilkan Celcius _tepat_ satu digit desimal. Tidak perlu khawatir tentang ketidaktepatan *floating-point* atau *integer overflow*, jika Anda mengingat apa arti istilah-istilah itu. (Jika tidak, Anda akan segera memahaminya!)
