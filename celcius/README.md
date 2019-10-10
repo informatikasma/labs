@@ -1,6 +1,6 @@
 # Celcius
 
-## Menyalakan Panas
+## Menyalakan Penghangat
 
 Di masa lalu, jika Anda ingin tahu suhu di luar ruangan, Anda harus melihat salah satu yang seperti ini, yang mungkin dipasang di luar di rumah Anda.
 
@@ -9,6 +9,8 @@ Di masa lalu, jika Anda ingin tahu suhu di luar ruangan, Anda harus melihat sala
 Sebelumnya, jika Anda ingin tahu suhu di luar, Anda harus berdiri di luar. Sekarang, cukup  membuka aplikasi cuaca di ponsel Anda atau mengunjungi situs web pelaporan cuaca untuk mendapatkan suhu saat ini dan ramalan lima hari kedepan. Tidak perlu dipusingkan dengan lingkarang angka di atas atau saudaranya, tabung merkuri.
 
 Bergantung pada tempat Anda tinggal di dunia, negara Anda menggunakan salah satu dari dua skala suhu utama. Di hampir setiap negara di dunia, termasuk Indonesia, Anda mungkin paling akrab dengan skala Celcius, dan jika Anda mendengar bahwa suhu di luar 30&deg; Anda mungkin akan mencari-cari pakaian renang di lemari pakaian Anda dan mengenakan tabir surya, karena ini adalah hari pantai yang indah. Pada skala Celcius, 0&deg; adalah titik beku air, dan 100&deg; adalah titik didih.
+
+{% next %}
 
 Jika Anda tinggal di Amerika Serikat (dan tidak menghabiskan sebagian besar hari Anda bekerja di laboratorium sains), kemungkinan Anda terbiasa dengan skala Fahrenheit. Dalam hal ini, jika Anda mendengar bahwa suhu di luar 30&deg; Anda mungkin mengenakan mantel tebal dan celana hangat dan memepersiapkan diri untuk kemungkinan turunnya salju, karena suhu tersebut berarti cukup dingin, mengingat titik beku air adalah 32&deg;. Di sisi lain, air tidak akan mendidih sebelum mencapai 212&deg;.
 
@@ -26,44 +28,9 @@ Mari kita lakukan tes singkat untuk memastikan semuanya berjalan seperti yang di
 
 {% next %}
 
-## Ingatan yang Dingin
-
-Cobalah lihat kembali *problem* [*Hello*](https://lab.cs50.io/informatikasma/labs/2019/hello/) yang pernah Anda buat, lihat `hello.c` Anda. (Jika Anda belum mengerjakannya, kerjakan sekarang.) Pada awal sebelum mengerjakan, isinya akan terlihat seperti ini:
-
-```c
-#include <stdio.h>
-
-int main(void)
-{
-    printf(“hello, world\n”);
-}
-```
-
-Untuk membuat program kita lebih mudah beradaptasi, alih-alih selalu mencetak pesan sederhana yang sama (`hello, world\n`) setiap kali, kita dapat memodifikasi program ini untuk meminta pengguna memberikan nama mereka dan kemudian mencetak nama mereka sebagai gantinya.
-
-Perhatikan beberapa perbedaan penting dalam program ini sebelum dan sesudah Anda mengerjakannya. Tampaknya kita telah memutuskan untuk memasukkan file header lain yang disebut `cs50.h`. Dalam file ini, yang dapat Anda intip di [sini](https://raw.githubusercontent.com/cs50/libcs50/develop/src/cs50.h) dan yang juga akan kita diskusikan secara lebih rinci nanti dalam pelajaran (jadi jangan khawatir dengan sintaksis asing), Anda akan melihat bahwa di situlah kita mendeklarasikan tipe data `string` dan mendeklarasikan fungsi yang disebut `get_string`.
-
-Suatu `string` dalam ilmu komputer pada dasarnya mengacu pada kumpulan karakter&mdash;kata, kalimat, atau frasa. Karena ketika kita menanyakan nama kepada pengguna, input yang diberikan mungkin terdiri dari lebih dari satu huruf, yang merupakan karakter (`char`), kita perlu menggunakan `get_string` untuk mengumpulkan input mereka dan kita perlu menyimpannya dalam variabel yang tipe datanya `string`; kita telah melakukan ini, variabel bernama `name` memiliki tipe data `string`.
-
-Apa lagi yang berubah? Baris kode terakhir pada tugas kita terlihat agak aneh. Ada `%s` di sana, dan muncul variabel `nama`. Apa yang sedang terjadi?
-
-Pada dasarnya, `%s` adalah apa yang dikenal sebagai __placeholder__ untuk suatu variabel. Pada saat program dikompilasi, kita tidak tahu persis apa yang akan di*print* (tidak seperti program awal yang akan selalu mencetak `hello, world\n`), tetapi kita berharap program akan mem*print* `hello, ` diikuti oleh apa pun yang diketik pengguna. `%s` adalah cara kita mengindikasikan ke `printf` bahwa `string` akan dicetak di sana.
-
-Apa `string` yang akan kita cetak? Ya, itu akan menjadi `name`! Setelah kita menentukan apa yang harus `printf` cetak, membuat *placeholder* sebanyak yang diperlukan, kita menentukan variabel apa yang direferensikan *placeholder* tersebut dari kiri ke kanan, dipisahkan dengan koma. Kita hanya memiliki satu *placeholder* dalam program yang telah dimodifikasi, satu `%s`, dan jadi variabel yang kita berikan pada `printf` untuk dicetak menggantikan `%s`, apa pun yang diketik pengguna saat diminta. Sebagai contoh:
-
-<pre>
-$ <u>./hello</u>
-Enter your name: <u>Ucup</u>
-Hello, Ucup!
-</pre>
-
-Meskipun demikian, tidak hanya `get_string` yang ada dalam `cs50.h`. Ada beberapa fungsi untuk mendapatkan input pengguna dari hampir semua jenis: `get_int`,` get_float`, `get_double`,` get_long`, `get_char`.
-
-{% next %}
-
 ## Semakin Hangat
 
-Tulis program yang mengubah suhu dalam Fahrenheit menjadi Celcius, sesuai dengan sampel *output* di bawah ini, di mana teks yang digarisbawahi menunjukkan beberapa *input* pengguna.
+Tulis program yang mengubah suhu dalam Fahrenheit menjadi Celcius, sesuai dengan sampel *output* di bawah ini, di mana teks yang digarisbawahi menunjukkan *input* pengguna.
 
 <pre>
 $ <u>./fahrenheit</u>
@@ -71,13 +38,49 @@ F: <u>212</u>
 C: 100.0
 </pre>
 
-Untuk mengatasi masalah ini, Anda tidak perlu melakukan hal yang lebih rumit daripada menggunakan pengetahuan C yang ada saat ini, dan informasi yang terkandung dalam spesifikasi ini, termasuk rumus konversi suhu di atas. Tidak peduli bagaimana pengguna memasukkan suhu dalam Fahrenheit (maksudnya, tidak peduli berapa banyak digit desimal yang mereka gunakan), pastikan untuk menampilkan Celcius _tepat_ satu digit desimal. Tidak perlu khawatir tentang ketidaktepatan *floating-point* atau *integer overflow*, jika Anda mengingat apa arti istilah-istilah itu. (Jika tidak, Anda akan segera memahaminya!)
+## Pseudocode
+
+Pertama, tulis di pseudocode.txt di sebelah kanan beberapa *pseudocode* yang mengimplementasikan program ini, walaupun tidak (belum!) yakin bagaimana cara menuliskannya dalam kode.
+
+Kemungkinan *pseudocode* Anda akan menggunakan (atau seakan menggunakan!) satu atau lebih fungsi, operator, dan variabel.
+
+{% spoiler %}
+
+Ada lebih dari satu cara untuk melakukan ini, dan ini hanya salah satunya saja!
+
+0. Minta pada pengguna suhu dalam Fahrenheit dan simpan ke sebuah variabel
+1. Gunakan nilai tadi untuk menghitung derajat Celcius dan simpan dalam variabel lain
+2. Cetak hasilnya
+
+Tidak masalah untuk mengedit sendiri setelah melihat *pseudocode* di sini, tetapi jangan hanya menyalin / menempelkan kode ini ke kode Anda sendiri!
+
+{% endspoiler %}
+
+{% next %}
+
+Apa pun *pseudocode* Anda, pertama-tama mari kita tuliskan hanya kode C yang meminta (dan meminta kembali, sesuai kebutuhan) pengguna untuk *input*.
+
+Pertama, deklarasikan variabel floating point baru untuk menyimpan derajat Fahrenheit.
 
 Ingat bahwa jika Anda memasukkan `<cs50.h>` di atas file `celcius.c` Anda, Anda akan memiliki akses ke fungsi yang disebut `get_float`, yang akan memungkinkan pengguna untuk memasukkan nilai *floating-point* (angka dengan titik desimal di dalamnya, juga dikenal sebagai __bilangan riil__). Parameter fungsi *get* akan menampilkan *prompt* pada pengguna.
 
-Secara kebetulan, ketahuilah bahwa `printf` dapat digunakan untuk menentukan berapa banyak digit setelah titik desimal yang ingin Anda tampilkan kepada pengguna. Cobalah lihat file `truncate.c` di samping.
+Sekarang pastikan untuk menetapkan nilai fungsi input ini ke variabel Fahrenheit baru Anda.
 
-Ketika program tersebut dieksekusi (dengan terlebih dahulu mengkompilasi dengan `make truncate` dan kemudian mengeksekusi dengan `./truncate`), program ini akan menampilkan nilai variabel `pi` ke tepat 2 digit desimal: `3.14`. Bisakah kamu lihat mengapa? Mungkin Anda bisa menyesuaikannya untuk menampilkan suhu yang dikonversi ke satu digit desimal?
+Nyatakan *float* lain untuk menampung derajat Celcius, dan tetapkan hasil dari rumus konversi suhu (ada di atas).
+
+Terakhir, cetak hasilnya dengan presisi satu tempat desimal.
+
+{% spoiler "hint" %}
+
+Printf dapat digunakan untuk menentukan berapa banyak tempat setelah titik desimal yang ingin Anda tampilkan kepada pengguna. Misalnya untuk mencetak *float* dengan 2 tempat desimal, ketikkan:
+
+```c
+printf("%.2f\n", number);
+```
+
+Dapatkah Anda melihat mengapa kode di atas akan mencetak 2 tempat desimal? Sekarang sesuaikan untuk mencetak derajat Celcius (jangan lupa untuk memulai keluaran dengan "C:") tepat satu tempat desimal.
+
+{% endspoiler %}
 
 ### Solusi Pengajar
 
@@ -88,6 +91,8 @@ Untuk mencoba implementasi pengajar dari masalah ini, jalankan
 ```
 
 dalam [sandbox ini](http://bit.ly/2OwofH6).
+
+{% next %}
 
 ### Cara Menguji Kode Anda
 
@@ -103,7 +108,9 @@ Jalankan di bawah ini untuk mengevaluasi gaya kode Anda menggunakan `style50`.
 style50 celcius.c
 ```
 
-{% next %}
+Jika Anda mendapatkan beberapa pesan kesalahan dan wajah merah sedih, tak perlu khawatir. Anda hanya perlu melakukan *debugging* dan/atau membersihkan kode.
+
+{% next "Siap mengirim?" %}
 
 ## Cara Mengirim
 
@@ -112,3 +119,9 @@ Jalankan di bawah ini, masuk dengan nama pengguna dan kata sandi GitHub Anda saa
 ```bash
 submit50 informatikasma/problems/2019/celcius
 ```
+
+Anda dapat mengulangi pengiriman sebanyak apapun yang Anda inginkan sebelum batas waktu pengumpulan.
+
+Kiriman Anda akan dinilai kebenarannya dalam 2 menit, pada saat itu skor Anda akan muncul di https://submit.cs50.io!
+
+Ini adalah Fahrenheit.
