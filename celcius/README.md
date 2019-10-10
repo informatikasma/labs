@@ -78,7 +78,7 @@ Printf dapat digunakan untuk menentukan berapa banyak tempat setelah titik desim
 printf("%.2f\n", number);
 ```
 
-Dapatkah Anda melihat mengapa kode di atas akan mencetak 2 tempat desimal? Sekarang sesuaikan untuk mencetak derajat Celcius (jangan lupa untuk memulai keluaran dengan "C:") tepat satu tempat desimal.
+Dapatkah Anda melihat mengapa kode di atas akan mencetak 2 tempat desimal? Sekarang sesuaikan untuk mencetak derajat Celcius (jangan lupa untuk memulai keluaran dengan "C: ") tepat satu tempat desimal.
 
 {% endspoiler %}
 
