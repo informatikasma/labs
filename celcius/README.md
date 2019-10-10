@@ -110,6 +110,22 @@ style50 celcius.c
 
 Jika Anda mendapatkan beberapa pesan kesalahan dan wajah merah sedih, tak perlu khawatir. Anda hanya perlu melakukan *debugging* dan/atau membersihkan kode.
 
+{% spoiler "hint" %}
+
+Lupa cara menkompilasi sendiri kode Anda?
+
+```bash
+make celcius
+```
+
+Kemudian jalankan program Anda dengan mengetikkan nama program Anda, seperti:
+
+<pre>
+./<u>celcius</u>
+</pre>
+
+{% endspoiler %}
+
 {% next "Siap mengirim?" %}
 
 ## Cara Mengirim
