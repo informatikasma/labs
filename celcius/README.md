@@ -140,4 +140,4 @@ Anda dapat mengulangi pengiriman sebanyak apapun yang Anda inginkan sebelum bata
 
 Kiriman Anda akan dinilai kebenarannya dalam 2 menit, pada saat itu skor Anda akan muncul di https://submit.cs50.io!
 
-Ini adalah Fahrenheit.
+Ini adalah Celcius.
