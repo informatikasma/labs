@@ -1,6 +1,6 @@
 # Celcius
 
-## Menyalakan Penghangat
+## Awal yang Dingin
 
 Di masa lalu, jika Anda ingin tahu suhu di luar ruangan, Anda harus melihat salah satu yang seperti ini, yang mungkin dipasang di luar di rumah Anda.
 
