@@ -1,5 +1,11 @@
 # Celcius
 
+<!-- TODO Introduction Video
+
+{% video https://www.youtube.com/watch?v=sxXQ-jgUIg8 %}
+
+{% next %} -->
+
 ## Awal yang Dingin
 
 Di masa lalu, jika Anda ingin tahu suhu di luar ruangan, Anda harus melihat salah satu yang seperti ini, yang mungkin dipasang di luar di rumah Anda.
@@ -82,6 +88,12 @@ Dapatkah Anda melihat mengapa kode di atas akan mencetak 2 tempat desimal? Sekar
 
 {% endspoiler %}
 
+<!-- TODO Walkthrough Video
+
+### Panduan
+
+{% video https://www.youtube.com/watch?v=Y3nWGvqt_Cg %} -->
+
 ### Solusi Pengajar
 
 Untuk mencoba implementasi pengajar dari masalah ini, jalankan
@@ -102,15 +114,17 @@ Jalankan di bawah ini untuk mengevaluasi kebenaran kode Anda menggunakan `check5
 check50 informatikasma/problems/2019/celcius
 ```
 
+Jika Anda mendapatkan beberapa pesan kesalahan dan wajah merah sedih, tak perlu khawatir. Anda hanya perlu melakukan *debugging*, mencari letak kesalahan kemudian memperbaikinya.
+
 Jalankan di bawah ini untuk mengevaluasi gaya kode Anda menggunakan `style50`.
 
 ```
 style50 celcius.c
 ```
 
-Jika Anda mendapatkan beberapa pesan kesalahan dan wajah merah sedih, tak perlu khawatir. Anda hanya perlu melakukan *debugging* dan/atau membersihkan kode.
+Blok merah berarti menghilangkan spasi, blok hijau berarti menambahkan spasi.
 
-{% spoiler "hint" %}
+{% spoiler "Hint" %}
 
 Lupa cara menkompilasi sendiri kode Anda?
 
@@ -126,7 +140,7 @@ Kemudian jalankan program Anda dengan mengetikkan nama program Anda, seperti:
 
 {% endspoiler %}
 
-{% next "Siap mengirim?" %}
+{% next "Siap Mengirim?" %}
 
 ## Cara Mengirim
 
