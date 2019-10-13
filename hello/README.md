@@ -1,5 +1,11 @@
 # Hello
 
+<!-- TODO Introduction Video
+
+{% video https://www.youtube.com/watch?v=sxXQ-jgUIg8 %}
+
+{% next %} -->
+
 ## Mendaftar File
 
 Hello, world! Di sebelah kanan, di *text editor*, adalah program pertama yang kita tulis dalam C, dalam file bernama `hello.c`.
@@ -8,7 +14,7 @@ Klik ikon folder di pojok kanan atas, dan Anda akan melihat bahwa `hello.c` adal
 
 Selanjutnya, di *terminal window* di kanan bawah, segera di sebelah kanan tanda dolar (`$`), atau dikenal sebagai *prompt*, ketikkan persis di bawah ini (dalam huruf kecil), lalu tekan Enter:
 
-```
+```bash
 ls
 ```
 
@@ -22,13 +28,13 @@ Di sini, untuk mengeksekusi (mis., menjalankan) perintah berarti mengetikkannya 
 
 Sekarang, sebelum kita dapat menjalankan program di sebelah kanan, ingat bahwa kita harus melakukan *compile* dengan *compiler* (misalnya, `clang`), menerjemahkannya dari *source code* ke *machine code* (yaitu, nol dan satu). Jalankan perintah di bawah ini untuk melakukannya:
 
-```
+```bash
 clang hello.c
 ```
 
 Dan kemudian jalankan yang ini lagi:
 
-```
+```bash
 ls
 ```
 
@@ -36,7 +42,7 @@ Kali ini, Anda seharusnya melihat tidak hanya `hello.c` tetapi` a.out` terdaftar
 
 Sekarang jalankan program dengan mengeksekusi di bawah ini.
 
-```
+```bash
 ./a.out
 ```
 
@@ -48,19 +54,19 @@ Sekarang jalankan program dengan mengeksekusi di bawah ini.
 
 Sekarang, `a.out` bukan nama yang paling *user-friendly* untuk suatu program. Mari kita kompilasi `hello.c` lagi, kali ini menyimpan *machine code* dalam sebuah file bernama, lebih tepatnya,` hello`. Jalankan di bawah ini.
 
-```
+```bash
 clang -o hello hello.c
 ```
 
 Berhati-hatilah untuk tidak mengabaikan penulisan spasi tersebut! Kemudian jalankan yang ini lagi:
 
-```
+```bash
 ls
 ```
 
 Anda seharusnya sekarang tidak hanya melihat `hello.c` (dan` a.out` dari sebelumnya) tetapi juga `hello` terdaftar juga? Itu karena `-o` adalah argumen *command-line*, kadang-kadang dikenal sebagai *flag* atau *switch*, yang memberitahu` clang` untuk menghasilkan *output* (makanya `o`) sebuah file bernama` hello`. Jalankan di bawah ini untuk mencoba program yang baru saja diberi nama.
 
-```
+```bash
 ./hello
 ```
 
@@ -72,7 +78,7 @@ Anda seharusnya sekarang tidak hanya melihat `hello.c` (dan` a.out` dari sebelum
 
 Ingatlah bahwa kita dapat mengotomasikan proses mengeksekusi `clang`, memberikan `make` tugas mencari cara untuk melakukannya bagi kita, dengan demikian kita dapat menghemat beberapa ketikan. Jalankan di bawah ini untuk mengkompilasi program ini untuk yang terakhir kalinya.
 
-```
+```bash
 make hello
 ```
 
@@ -80,11 +86,13 @@ Anda seharusnya melihat bahwa `make` mengeksekusi `clang` dengan lebih banyak *c
 
 Sekarang jalankan program itu sendiri untuk terakhir kalinya dengan mengeksekusi di bawah ini.
 
-```
+```bash
 ./hello
 ```
 
 Fiuh!
+
+{% next %}
 
 ## Mendapatkan Input Pengguna
 
@@ -94,13 +102,13 @@ Ubah program ini sedemikian rupa sehingga di awal meminta pengguna siapa nama me
 
 Seperti sebelumnya, pastikan untuk mengkompilasi program Anda dengan:
 
-```
+```bash
 make hello
 ```
 
 Dan pastikan untuk menjalankan program Anda, mengujinya beberapa kali dengan input berbeda, dengan:
 
-```
+```bash
 ./hello
 ```
 
@@ -108,11 +116,17 @@ Dan pastikan untuk menjalankan program Anda, mengujinya beberapa kali dengan inp
 
 Untuk mencoba implementasi pengajar dari masalah ini, jalankan
 
-```
+```bash
 ./hello
 ```
 
 dalam [sandbox ini](http://bit.ly/2Qp0a2g).
+
+<!-- TODO Walkthrough Video
+
+### Panduan
+
+{% video https://www.youtube.com/watch?v=Y3nWGvqt_Cg %} -->
 
 ### Petunjuk
 
@@ -136,7 +150,7 @@ printf("hello, %s\n", name);
 
 Melihat tulisan seperti berikut, mungkin di atas error-error lainnya?
 
-```
+```bash
 error: use of undeclared identifier 'string'; did you mean 'stdin'?
 ```
 
@@ -150,22 +164,28 @@ Ingat bahwa, untuk menggunakan `get_string`, Anda harus menyertakan `cs50.h` (di
 
 Jalankan di bawah ini untuk mengevaluasi kebenaran kode Anda menggunakan `check50`. Tapi pastikan untuk mengkompilasi dan mengujinya oleh Anda sendiri juga!
 
-```
+```bash
 check50 informatikasma/problems/2019/hello
 ```
 
 Jalankan di bawah ini untuk mengevaluasi gaya kode Anda menggunakan `style50`.
 
-```
+```bash
 style50 hello.c
 ```
 
-{% next %}
+{% next "Siap Mengirim?" %}
 
 ## Cara Mengirim
 
 Jalankan di bawah ini, masuk dengan nama pengguna dan kata sandi GitHub Anda saat diminta. Untuk keamanan, Anda akan melihat tanda bintang (`*`) alih-alih karakter sebenarnya dalam kata sandi Anda.
 
-```
+```bash
 submit50 informatikasma/problems/2019/hello
 ```
+
+Anda dapat mengulangi pengiriman sebanyak apapun yang Anda inginkan sebelum batas waktu pengumpulan.
+
+Kiriman Anda akan dinilai kebenarannya dalam 2 menit, pada saat itu skor Anda akan muncul di https://submit.cs50.io!
+
+Ini adalah Hello.
