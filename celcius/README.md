@@ -12,7 +12,7 @@ Di masa lalu, jika Anda ingin tahu suhu di luar ruangan, Anda harus melihat sala
 
 ![Thermometer](thermometer.png)
 
-Sebelumnya, jika Anda ingin tahu suhu di luar, Anda harus berdiri di luar. Sekarang, cukup  membuka aplikasi cuaca di ponsel Anda atau mengunjungi situs web pelaporan cuaca untuk mendapatkan suhu saat ini dan ramalan lima hari kedepan. Tidak perlu dipusingkan dengan lingkarang angka di atas atau saudaranya, tabung merkuri.
+Sebelum adanya alat tersebut, jika Anda ingin tahu suhu di luar, Anda harus berdiri di luar. Sekarang ini, cukup  membuka aplikasi cuaca di ponsel Anda atau mengunjungi situs web pelaporan cuaca untuk mendapatkan suhu saat ini dan ramalan lima hari kedepan. Tidak perlu dipusingkan dengan lingkarang angka di atas atau saudaranya, tabung merkuri.
 
 Bergantung pada tempat Anda tinggal di dunia, negara Anda menggunakan salah satu dari dua skala suhu utama. Di hampir setiap negara di dunia, termasuk Indonesia, Anda mungkin paling akrab dengan skala Celcius, dan jika Anda mendengar bahwa suhu di luar 30&deg; Anda mungkin akan mencari-cari pakaian renang di lemari pakaian Anda dan mengenakan tabir surya, karena ini adalah hari pantai yang indah. Pada skala Celcius, 0&deg; adalah titik beku air, dan 100&deg; adalah titik didih.
 
@@ -20,7 +20,7 @@ Bergantung pada tempat Anda tinggal di dunia, negara Anda menggunakan salah satu
 
 Jika Anda tinggal di Amerika Serikat (dan tidak menghabiskan sebagian besar hari Anda bekerja di laboratorium sains), kemungkinan Anda terbiasa dengan skala Fahrenheit. Dalam hal ini, jika Anda mendengar bahwa suhu di luar 30&deg; Anda mungkin mengenakan mantel tebal dan celana hangat dan memepersiapkan diri untuk kemungkinan turunnya salju, karena suhu tersebut berarti cukup dingin, mengingat titik beku air adalah 32&deg;. Di sisi lain, air tidak akan mendidih sebelum mencapai 212&deg;.
 
-Kami mengakui bahwa dengan sebagian besar aplikasi yang memberi tahu Anda cuaca, cukup mudah untuk menekan tombol pilihan yang mengubah tampilan suhu dari Celsius ke Fahrenheit (atau sebaliknya), tetapi sebelum proses itu diotomatiskan untuk kita, orang harus menghafal sebagian titik konversi yang lebih umum atau harus menggunakan rumus matematika untuk mengkonversi dari satu skala ke skala lain, yang akan sangat dibutuhkan jika Anda berencana bepergian ke Amerika.
+Memang dengan sebagian besar aplikasi yang memberikan Anda laporan cuaca, cukup mudah untuk menekan tombol pilihan yang mengubah tampilan suhu dari Celsius ke Fahrenheit (atau sebaliknya), tetapi sebelum proses itu diotomatiskan untuk kita, orang harus menghafal sebagian titik konversi yang lebih umum atau harus menggunakan rumus matematika untuk mengkonversi dari satu skala ke skala lain, yang akan sangat dibutuhkan jika Anda berencana bepergian ke Amerika.
 
 Untuk masalah ini, kita akan fokus pada konversi hanya dalam satu arah: _dari_ Fahrenheit _ke_ Celcius. Rumus untuk konversi ini tidak terlalu rumit. (Fiuh!) Seseorang cukup mengambil suhu saat ini dalam derajat Fahrenheit (&deg;F), menguranginya dengan 32, mengalikannya dengan 5, dan kemudian membaginya dengan 9. Hasilnya adalah suhu setara dalam derajat Celcius (&deg;C). Tidak sulit kan? Untuk yang lebih senang visual, cara tersebut dapat diterjemahkan ke dalam rumus ini:
 
