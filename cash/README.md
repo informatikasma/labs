@@ -1,10 +1,8 @@
 # Cash
 
-<!-- TODO Introduction Video
+{% video https://www.youtube.com/watch?v=AGrpmfxNYG8 %}
 
-{% video https://www.youtube.com/watch?v=sxXQ-jgUIg8 %}
-
-{% next %} -->
+{% next %}
 
 ## Greedy Algorithms
 
