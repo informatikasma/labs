@@ -4,7 +4,7 @@
 
 {% spoiler "Transkrip Video" %}
 
-Setiap Anda belanja di Toko, kecuali Anda membayar dengan uang pas, Anda akan mendapatkan kembalian. Dengan asumsi bahwa kembalian yang Anda terima memang sesuai, tentunya Anda tidak ingin membawa terlalu banyak koin di dompet Anda. Anda ingin agar kasir memberikan koin sesedikit mungkin.
+Setiap Anda belanja di toko, kecuali Anda membayar dengan uang pas, Anda akan mendapatkan kembalian. Dengan asumsi bahwa kembalian yang Anda terima memang sesuai, tentunya Anda tidak ingin membawa terlalu banyak koin di dompet Anda. Anda ingin agar kasir memberikan koin sesedikit mungkin.
 
 Sebagai contoh: Katakanlah Anda memiliki kembalian Rp2000. Apakah Anda lebih suka jika kasir memberikan 20 koin Rp100, atau 2 keping Rp1000?
 
