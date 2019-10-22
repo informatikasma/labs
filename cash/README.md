@@ -35,7 +35,7 @@ Ternyata pendekatan serakah ini (mis., Algoritma) tidak hanya optimal secara lok
 
 {% next %}
 
-## Detil Implementasi
+## Detail Implementasi
 
 Implementasikan, dalam `cash.c` di sebelah kanan, sebuah program yang pertama kali menanyakan kepada pengguna berapa banyak kembalian yang terhutang dan kemudian mencetak jumlah minimum koin yang diperlukan.
 
@@ -125,7 +125,7 @@ untuk melihat apakah Anda dapat memformat kode Anda lebih baik. Blok merah berar
 
 {% next "Siap Mengirim?" %}
 
-## How to Submit
+## Cara Mengirimkan
 
 Jalankan di bawah ini, masuk dengan nama pengguna dan kata sandi GitHub Anda saat diminta. Untuk keamanan, Anda akan melihat tanda bintang (`*`) alih-alih karakter sebenarnya dalam kata sandi Anda.
 
