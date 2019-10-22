@@ -75,7 +75,7 @@ Untuk mencoba implementasi pengajar dari masalah ini, jalankan
 ./cash
 ```
 
-dalam [sandbox ini](http://bit.ly/2VAxlUr).
+dalam [sandbox ini](http://bit.ly/2o86JOt).
 
 {% next %}
 
@@ -135,6 +135,6 @@ submit50 informatikasma/problems/2019/cash
 
 Anda dapat mengulangi pengiriman sebanyak apapun yang Anda inginkan sebelum batas waktu pengumpulan.
 
-Kiriman Anda akan dinilai kebenarannya dalam 2 menit, pada saat itu skor Anda akan muncul di [https://submit.cs50.io](https://submit.cs50.io)!
+Kiriman Anda akan dinilai kebenarannya dalam 2 menit, dimana skor Anda akan muncul di [https://submit.cs50.io](https://submit.cs50.io)!
 
 Ini adalah Cash.
