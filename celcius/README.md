@@ -102,7 +102,7 @@ Untuk mencoba implementasi pengajar dari masalah ini, jalankan
 ./celcius
 ```
 
-dalam [sandbox ini](http://bit.ly/2OwofH6).
+dalam [sandbox ini](http://bit.ly/2W3uR1t).
 
 {% next %}
 
