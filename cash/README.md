@@ -97,7 +97,7 @@ Anda lupa cara menjalankan program?
 ./cash
 ```
 
-Usahakan agar selalu menguji program Anda secara mandiri sebelum menguji menggunkan `check50`!
+Selalu uji program Anda secara mandiri sebelum menggunakan `check50`!
 
 {% endspoiler %}
 
