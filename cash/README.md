@@ -81,6 +81,26 @@ dalam [sandbox ini](http://bit.ly/2VAxlUr).
 
 ### Cara Menguji Kode Anda
 
+Compile kode Anda, kemudian jalankan program.
+
+{% spoiler %}
+
+Anda lupa cara compile kode?
+
+```bash
+make cash
+```
+
+Anda lupa cara menjalankan program?
+
+```bash
+./cash
+```
+
+Usahakan agar selalu menguji program Anda secara mandiri sebelum menguji menggunkan `check50`!
+
+{% endspoiler %}
+
 Apakah kode Anda berfungsi seperti yang ditentukan saat Anda memasukkan *input*:
 
 * `-100` (atau bilangan negatif lainnya)?
@@ -89,7 +109,7 @@ Apakah kode Anda berfungsi seperti yang ditentukan saat Anda memasukkan *input*:
 * huruf atau kata?
 * tidak ada input sama sekali, ketika Anda hanya menekan Enter?
 
-Kemudian jalankan `check50` dan `style50` dengan mengetik berikut ini di terminal:
+Setelah mengujinya secara mandiri, jalankan `check50` dan `style50` dengan mengetik berikut ini di terminal:
 
 ```bash
 check50 informatikasma/problems/2019/cash
