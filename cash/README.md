@@ -2,11 +2,9 @@
 
 {% video https://www.youtube.com/watch?v=AGrpmfxNYG8 %}
 
-<<<<<<< HEAD
 <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src="https://smanbatujajar.sharepoint.com/sites/Informatika/_layouts/15/Doc.aspx?sourcedoc={dc0a2bab-8365-41b4-a652-734697b35c9a}&amp;action=embedview&amp;wdAr=1.7777777777777777"></iframe>
 </div>
-=======
 {% spoiler "Transkrip Video" %}
 
 Setiap Anda belanja di toko, kecuali Anda membayar dengan uang pas, Anda akan mendapatkan kembalian. Dengan asumsi bahwa kembalian yang Anda terima memang sesuai, tentunya Anda tidak ingin membawa terlalu banyak koin di dompet Anda. Anda ingin agar kasir memberikan koin sesedikit mungkin.
@@ -18,7 +16,6 @@ Ternyata ada algoritma untuk itu. Dimana kasir harus mulai memberikan Anda denom
 {% endspoiler %}
 
 {% next %}
->>>>>>> 1251442acf631f148afab0e51ca6903f2719760f
 
 ## Greedy Algorithms
 
