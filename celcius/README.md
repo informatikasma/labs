@@ -2,9 +2,11 @@
 
 <!-- TODO Introduction Video
 
-{% video https://www.youtube.com/watch?v=sxXQ-jgUIg8 %}
+{% video https://www.youtube.com/watch?v=sxXQ-jgUIg8 %} -->
 
-{% next %} -->
+<div class="fluid-width-video-wrapper my-3" style="padding-top: 56.25%;"><iframe allowfullscreen="" class="border" data-video="" src="https://smanbatujajar.sharepoint.com/sites/Informatika/_layouts/15/Doc.aspx?sourcedoc={dc0a2bab-8365-41b4-a652-734697b35c9a}&amp;action=embedview&amp;wdAr=1.7777777777777777" name="fitvid0"></iframe></div>
+
+{% next %}
 
 ## Awal yang Dingin
 

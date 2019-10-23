@@ -2,9 +2,8 @@
 
 {% video https://www.youtube.com/watch?v=AGrpmfxNYG8 %}
 
-<div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://smanbatujajar.sharepoint.com/sites/Informatika/_layouts/15/Doc.aspx?sourcedoc={dc0a2bab-8365-41b4-a652-734697b35c9a}&amp;action=embedview&amp;wdAr=1.7777777777777777"></iframe>
-</div>
+<div class="fluid-width-video-wrapper my-3" style="padding-top: 56.25%;"><iframe allowfullscreen="" class="border" data-video="" src="https://smanbatujajar.sharepoint.com/sites/Informatika/_layouts/15/Doc.aspx?sourcedoc={6d706fa1-0d0e-40e0-8367-fbc600fcfaa5}&amp;action=embedview&amp;wdAr=1.7777777777777777" name="fitvid0"></iframe></div>
+
 {% spoiler "Transkrip Video" %}
 
 Setiap Anda belanja di toko, kecuali Anda membayar dengan uang pas, Anda akan mendapatkan kembalian. Dengan asumsi bahwa kembalian yang Anda terima memang sesuai, tentunya Anda tidak ingin membawa terlalu banyak koin di dompet Anda. Anda ingin agar kasir memberikan koin sesedikit mungkin.
