@@ -4,7 +4,7 @@
 
 {% video https://www.youtube.com/watch?v=sxXQ-jgUIg8 %} -->
 
-<div class="fluid-width-video-wrapper my-3" style="padding-top: 56.25%;"><iframe allowfullscreen="" class="border" data-video="" src="https://smanbatujajar.sharepoint.com/sites/Informatika/_layouts/15/Doc.aspx?sourcedoc={dc0a2bab-8365-41b4-a652-734697b35c9a}&amp;action=embedview&amp;wdAr=1.7777777777777777" name="fitvid0"></iframe></div>
+<div class="fluid-width-video-wrapper my-3" style="padding-top: 56.25%;"><iframe allowfullscreen="" class="border" data-video="" src="https://onedrive.live.com/embed?cid=CEB017B395D032DF&amp;resid=CEB017B395D032DF%214213&amp;authkey=AJoHMPZkGwp0ItI&amp;em=2&amp;wdAr=1.7777777777777777" name="fitvid0"></iframe></div>
 
 {% next %}
 
