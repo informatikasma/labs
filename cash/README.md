@@ -1,10 +1,10 @@
 # Cash
 
-<!-- TODO Introduction Video
+{% video https://www.youtube.com/watch?v=AGrpmfxNYG8 %}
 
-{% video https://www.youtube.com/watch?v=sxXQ-jgUIg8 %}
-
-{% next %} -->
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://smanbatujajar.sharepoint.com/sites/Informatika/_layouts/15/Doc.aspx?sourcedoc={dc0a2bab-8365-41b4-a652-734697b35c9a}&amp;action=embedview&amp;wdAr=1.7777777777777777"></iframe>
+</div>
 
 ## Greedy Algorithms
 
