@@ -2,9 +2,23 @@
 
 {% video https://www.youtube.com/watch?v=AGrpmfxNYG8 %}
 
+<<<<<<< HEAD
 <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src="https://smanbatujajar.sharepoint.com/sites/Informatika/_layouts/15/Doc.aspx?sourcedoc={dc0a2bab-8365-41b4-a652-734697b35c9a}&amp;action=embedview&amp;wdAr=1.7777777777777777"></iframe>
 </div>
+=======
+{% spoiler "Transkrip Video" %}
+
+Setiap Anda belanja di toko, kecuali Anda membayar dengan uang pas, Anda akan mendapatkan kembalian. Dengan asumsi bahwa kembalian yang Anda terima memang sesuai, tentunya Anda tidak ingin membawa terlalu banyak koin di dompet Anda. Anda ingin agar kasir memberikan koin sesedikit mungkin.
+
+Sebagai contoh: Katakanlah Anda memiliki kembalian Rp2000. Apakah Anda lebih suka jika kasir memberikan 20 koin Rp100, atau 2 keping Rp1000?
+
+Ternyata ada algoritma untuk itu. Dimana kasir harus mulai memberikan Anda denominasi terbesar dulu, lalu terbesar selanjutnya, seterusnya, dan sebagainya, sedemikian rupa sehingga mereka mengembalikan kembalian Anda dengan jumlah koin sesedikit mungkin. Kita akan mencari tahu algoritma itu dan mengimplementasikannya dalam cash.
+
+{% endspoiler %}
+
+{% next %}
+>>>>>>> 1251442acf631f148afab0e51ca6903f2719760f
 
 ## Greedy Algorithms
 
@@ -27,7 +41,7 @@ Ternyata pendekatan serakah ini (mis., Algoritma) tidak hanya optimal secara lok
 
 {% next %}
 
-## Detil Implementasi
+## Detail Implementasi
 
 Implementasikan, dalam `cash.c` di sebelah kanan, sebuah program yang pertama kali menanyakan kepada pengguna berapa banyak kembalian yang terhutang dan kemudian mencetak jumlah minimum koin yang diperlukan.
 
@@ -67,11 +81,31 @@ Untuk mencoba implementasi pengajar dari masalah ini, jalankan
 ./cash
 ```
 
-dalam [sandbox ini](http://bit.ly/2VAxlUr).
+dalam [sandbox ini](http://bit.ly/2o86JOt).
 
 {% next %}
 
 ### Cara Menguji Kode Anda
+
+Compile kode Anda, kemudian jalankan program.
+
+{% spoiler %}
+
+Anda lupa cara compile kode?
+
+```bash
+make cash
+```
+
+Anda lupa cara menjalankan program?
+
+```bash
+./cash
+```
+
+Selalu uji program Anda secara mandiri sebelum menggunakan `check50`!
+
+{% endspoiler %}
 
 Apakah kode Anda berfungsi seperti yang ditentukan saat Anda memasukkan *input*:
 
@@ -81,7 +115,7 @@ Apakah kode Anda berfungsi seperti yang ditentukan saat Anda memasukkan *input*:
 * huruf atau kata?
 * tidak ada input sama sekali, ketika Anda hanya menekan Enter?
 
-Kemudian jalankan `check50` dan `style50` dengan mengetik berikut ini di terminal:
+Setelah mengujinya secara mandiri, jalankan `check50` dan `style50` dengan mengetik berikut ini di terminal:
 
 ```bash
 check50 informatikasma/problems/2019/cash
@@ -97,7 +131,7 @@ untuk melihat apakah Anda dapat memformat kode Anda lebih baik. Blok merah berar
 
 {% next "Siap Mengirim?" %}
 
-## How to Submit
+## Cara Mengirimkan
 
 Jalankan di bawah ini, masuk dengan nama pengguna dan kata sandi GitHub Anda saat diminta. Untuk keamanan, Anda akan melihat tanda bintang (`*`) alih-alih karakter sebenarnya dalam kata sandi Anda.
 
@@ -107,6 +141,6 @@ submit50 informatikasma/problems/2019/cash
 
 Anda dapat mengulangi pengiriman sebanyak apapun yang Anda inginkan sebelum batas waktu pengumpulan.
 
-Kiriman Anda akan dinilai kebenarannya dalam 2 menit, pada saat itu skor Anda akan muncul di https://submit.cs50.io!
+Kiriman Anda akan dinilai kebenarannya dalam 2 menit, dimana skor Anda akan muncul di [https://submit.cs50.io](https://submit.cs50.io)!
 
 Ini adalah Cash.
