@@ -122,9 +122,9 @@ make celcius
 
 Kemudian jalankan program Anda dengan mengetikkan nama program Anda, seperti:
 
-<pre>
-./<u>celcius</u>
-</pre>
+```bash
+./celcius
+```
 
 Selalu uji program Anda secara mandiri sebelum menggunakan `check50`!
 

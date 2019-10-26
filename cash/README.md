@@ -39,27 +39,25 @@ Ternyata pendekatan serakah ini (mis., Algoritma) tidak hanya optimal secara lok
 
 ## Detail Implementasi
 
-Implementasikan, dalam `cash.c` di sebelah kanan, sebuah program yang pertama kali menanyakan kepada pengguna berapa banyak kembalian yang terhutang dan kemudian mencetak jumlah minimum koin yang diperlukan.
+Implementasikan, dalam `cash.c` di sebelah kanan, sebuah program yang pada awalnya menanyakan kepada pengguna berapa banyak kembalian yang terhutang dan kemudian mencetak jumlah minimum koin yang diperlukan.
 
 * Gunakan `get_int` untuk mendapatkan input pengguna dan `printf` untuk menampilkan jawaban Anda. Asumsikan bahwa koin yang tersedia adalah Rp1000, Rp500, Rp200, dan Rp100.
-* Anda tidak perlu mencoba memeriksa apakah input pengguna terlalu besar untuk masuk dalam `int`. Cukup pastikan saja *input* yang diberikan adalah bilangan bulat dan bukan bilangan negatif.
+* Pastikan *input* yang diberikan adalah bilangan bulat dan bukan bilangan negatif.
 * Jika pengguna gagal memberikan nilai non-negatif, program Anda harus meminta kembali kepada pengguna angka yang valid berulang-ulang sampai pengguna mematuhinya.
-* Agar kami dapat mengotomatisasi pengujian kode Anda, pastikan bahwa *output* program Anda hanyalah hasil perhitungan jumlah koin 
-minimum: bilangan bulat diikuti oleh `\n`.
 
-Program Anda harus berperilaku sesuai contoh di bawah ini.
+Program Anda **harus** berperilaku sesuai contoh di bawah ini.
 
 ```bash
 $ ./cash
-Change owed: 1800
+Kembalian: 1800
 4
 ```
 
 ```bash
 $ ./cash
-Change owed: -1800
-Change owed: foo
-Change owed: 1800
+Kembalian: -1800
+Kembalian: foo
+Kembalian: 1800
 4
 ```
 
