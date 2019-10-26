@@ -112,19 +112,19 @@ dalam [sandbox ini](http://bit.ly/2W3uR1t).
 
 Jalankan di bawah ini untuk mengevaluasi kebenaran kode Anda menggunakan `check50`. Tapi pastikan untuk mengkompilasi dan mengujinya oleh Anda sendiri juga!
 
-{% spoiler %}
+{% spoiler "Lupa cara compile?" %}
 
-Anda lupa cara compile kode?
-
-```bash
-make cash
-```
-
-Anda lupa cara menjalankan program?
+Lupa cara menkompilasi sendiri kode Anda?
 
 ```bash
-./cash
+make celcius
 ```
+
+Kemudian jalankan program Anda dengan mengetikkan nama program Anda, seperti:
+
+<pre>
+./<u>celcius</u>
+</pre>
 
 Selalu uji program Anda secara mandiri sebelum menggunakan `check50`!
 
@@ -143,22 +143,6 @@ style50 celcius.c
 ```
 
 Blok merah berarti menghilangkan spasi, blok hijau berarti menambahkan spasi.
-
-{% spoiler "Hint" %}
-
-Lupa cara menkompilasi sendiri kode Anda?
-
-```bash
-make celcius
-```
-
-Kemudian jalankan program Anda dengan mengetikkan nama program Anda, seperti:
-
-<pre>
-./<u>celcius</u>
-</pre>
-
-{% endspoiler %}
 
 {% next "Siap Mengirim?" %}
 
