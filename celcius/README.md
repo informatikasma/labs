@@ -112,6 +112,24 @@ dalam [sandbox ini](http://bit.ly/2W3uR1t).
 
 Jalankan di bawah ini untuk mengevaluasi kebenaran kode Anda menggunakan `check50`. Tapi pastikan untuk mengkompilasi dan mengujinya oleh Anda sendiri juga!
 
+{% spoiler %}
+
+Anda lupa cara compile kode?
+
+```bash
+make cash
+```
+
+Anda lupa cara menjalankan program?
+
+```bash
+./cash
+```
+
+Selalu uji program Anda secara mandiri sebelum menggunakan `check50`!
+
+{% endspoiler %}
+
 ```
 check50 informatikasma/problems/2019/celcius
 ```
