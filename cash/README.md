@@ -1,9 +1,5 @@
 # Cash
 
-{% video https://www.youtube.com/watch?v=AGrpmfxNYG8 %}
-
-{% next %}
-
 ## Greedy Algorithms
 
 <!-- Edited from: https://finance.detik.com/moneter/d-3374687/ini-11-uang-rupiah-desain-baru -->
