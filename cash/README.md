@@ -11,17 +11,15 @@
 
 Saat memberikan kembalian, kemungkinan Anda ingin meminimalkan jumlah koin yang Anda keluarkan untuk setiap pelanggan, jangan sampai Anda kehabisan (atau membuat kesal pelanggan!). Untungnya, ilmu komputer telah memberi semua kasir cara untuk meminimalkan jumlah koin karena: algoritma serakah.
 
-Menurut National Institute of Standards and Technology (NIST) di Amerika Serikat, algoritma serakah adalah salah satu "yang selalu mengambil solusi langsung, atau lokal, sembari mencari jawaban. Algoritma serakah menemukan solusi optimal secara keseluruhan, atau global, untuk beberapa masalah optimasi, tetapi mungkin menemukan solusi yang kurang optimal untuk beberapa contoh masalah lain."
-
-Apa maksud semua itu? Nah, anggaplah bahwa seorang kasir berhutang kepada pelanggan beberapa kembalian dan di laci kasir terdapat koin Rp1000, Rp500, Rp200, dan Rp100. Masalah yang harus dipecahkan adalah memutuskan koin mana dan berapa banyak masing-masing untuk diserahkan kepada pelanggan.
+Anggaplah bahwa seorang kasir berhutang kepada pelanggan kembalian dan di laci kasir terdapat koin Rp1000, Rp500, Rp200, dan Rp100. Masalah yang harus dipecahkan adalah memutuskan koin mana dan berapa banyak masing-masing untuk diserahkan kepada pelanggan.
 
 {% next %}
 
-Pikirkan seorang kasir "serakah" sebagai orang yang ingin mengambil pecahan terbesar dari masalah ini sebanyak mungkin dengan setiap koin yang mereka ambil dari laci. Jika seorang pelanggan terutang Rp1800, pecahan pertama (yaitu, langsung, atau lokal) terbesar yang dapat diambil adalah Rp1000. (Pecahan itu dianggap "terbaik" karena membuat kita lebih dekat ke Rp0 lebih cepat daripada koin lainnya.) Dengan demikian, jumlah masalah tinggal Rp1800 - Rp1000 = Rp800.
+Jika seorang pelanggan terutang Rp1800, pecahan pertama terbesar yang dapat diambil adalah Rp1000. (Pecahan itu dianggap "terbaik" karena membuat kita lebih dekat ke Rp0 lebih cepat daripada koin lainnya.) Dengan demikian, jumlah masalah tinggal Rp1800 - Rp1000 = Rp800.
 
-Dengan mengulangi cara yang sama, Rp1000 tentunya terlalu besar (kasir tidak ingin rugi!), sehingga kasir serakah kita akan beralih ke pecahan Rp500, menyisakan masalah Rp300. Diikuti mengambil pecahan Rp200, dan terakhir Rp100, di mana masalah terselesaikan. Pelanggan menerima satu Rp1000, satu Rp500, satu Rp200, dan satu Rp100: total empat koin.
+Dengan mengulangi cara yang sama, Rp1000 tentunya terlalu besar (kasir tidak ingin rugi!), sehingga kasir kita akan beralih ke pecahan Rp500, menyisakan masalah Rp300. Diikuti mengambil pecahan Rp200, dan terakhir Rp100, di mana masalah terselesaikan. Pelanggan menerima satu Rp1000, satu Rp500, satu Rp200, dan satu Rp100: total empat koin.
 
-Ternyata pendekatan serakah ini (mis., Algoritma) tidak hanya optimal secara lokal tetapi juga secara global untuk mata uang Indonesia (dan juga negara lainnya). Selama seorang kasir memiliki cukup pecahan setiap koin, pendekatan terbesar ke terkecil ini akan menghasilkan jumlah koin sekecil mungkin. Seberapa kecil? Baiklah, beritahu kami!
+Selama seorang kasir memiliki cukup pecahan setiap koin, pendekatan terbesar ke terkecil ini akan menghasilkan jumlah koin sekecil mungkin. Seberapa kecil? Baiklah, beritahu kami!
 
 {% next %}
 
@@ -30,22 +28,23 @@ Ternyata pendekatan serakah ini (mis., Algoritma) tidak hanya optimal secara lok
 Implementasikan, dalam `cash.c` di sebelah kanan, sebuah program yang pada awalnya menanyakan kepada pengguna berapa banyak kembalian yang terhutang dan kemudian mencetak jumlah minimum koin yang diperlukan.
 
 * Gunakan `get_int` untuk mendapatkan input pengguna dan `printf` untuk menampilkan jawaban Anda. Asumsikan bahwa koin yang tersedia adalah Rp1000, Rp500, Rp200, dan Rp100.
-* Pastikan *input* yang diberikan adalah bilangan bulat dan bukan bilangan negatif.
-* Jika pengguna gagal memberikan nilai non-negatif, program Anda harus meminta kembali kepada pengguna angka yang valid berulang-ulang sampai pengguna mematuhinya.
+* Pastikan *input* yang diberikan adalah bilangan bulat dan hanya bilangan positif.
+* Jika pengguna gagal memberikan nilai positif, program Anda harus meminta kembali kepada pengguna angka yang valid berulang-ulang sampai pengguna mematuhinya.
+* Anda tidak perlu menyebutkan jumlah masing-masing denominasi koin yang diberikan, cukup jumlah koin secara keseluruhan saja.
 
-Program Anda **harus** berperilaku sesuai contoh di bawah ini.
+Program Anda harus berperilaku sesuai contoh di bawah ini.
 
-```bash
-$ ./cash
-Kembalian: 1800
+<pre>
+$ <u>./cash</u>
+Kembalian: <u>1800</u>
 4
-```
+<pre>
 
-```bash
-$ ./cash
-Kembalian: -1800
-Kembalian: foo
-Kembalian: 1800
+<pre>
+$ <u>./cash</u>
+Kembalian: <u>-1800</u>
+Kembalian: <u>foo</u>
+Kembalian: <u>1800</u>
 4
 ```
 
@@ -53,7 +52,7 @@ Kembalian: 1800
 
 {% video https://www.youtube.com/watch?v=f9VyhVtgS_8 %}
 
-### Solusi Pengajar
+{% spoiler "Solusi Pengajar" %}
 
 Untuk mencoba implementasi pengajar dari masalah ini, jalankan
 
@@ -63,13 +62,15 @@ Untuk mencoba implementasi pengajar dari masalah ini, jalankan
 
 dalam [sandbox ini](http://bit.ly/2o86JOt).
 
+{% endspoiler %}
+
 {% next %}
 
 ### Cara Menguji Kode Anda
 
 Compile kode Anda, kemudian jalankan program.
 
-{% spoiler %}
+{% spoiler "Lupa cara compile?" %}
 
 Anda lupa cara compile kode?
 
