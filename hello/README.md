@@ -112,11 +112,9 @@ Dan pastikan untuk menjalankan program Anda, mengujinya beberapa kali dengan inp
 ./hello
 ```
 
-<!-- TODO Walkthrough Video
-
 ### Panduan
 
-{% video https://www.youtube.com/watch?v=Y3nWGvqt_Cg %} -->
+{% video https://www.youtube.com/watch?v=WaDI3D8pCq4 %}
 
 {% spoiler "Solusi Pengajar" %}
 
