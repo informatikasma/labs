@@ -49,8 +49,6 @@ Kembalian: 1800
 4
 ```
 
-TODO Walkthrough Video
-
 ### Panduan
 
 {% video https://www.youtube.com/watch?v=f9VyhVtgS_8 %}
