@@ -102,7 +102,7 @@ dalam [sandbox ini](http://bit.ly/2W3uR1t).
 
 ### Cara Menguji Kode Anda
 
-Jalankan di bawah ini untuk mengevaluasi kebenaran kode Anda menggunakan `check50`. Tapi pastikan untuk mengkompilasi dan mengujinya oleh Anda sendiri juga!
+Compile kode Anda, kemudian jalankan program.
 
 {% spoiler "Lupa cara compile?" %}
 
@@ -121,6 +121,15 @@ Kemudian jalankan program Anda dengan mengetikkan nama program Anda, seperti:
 Selalu uji program Anda secara mandiri sebelum menggunakan `check50`!
 
 {% endspoiler %}
+
+Apakah kode Anda berfungsi seperti yang ditentukan saat Anda memasukkan *input*:
+
+* `212` hasilnya adalah `100`
+* `32` hasilnya adalah `0`
+* huruf atau kata?
+* tidak ada input sama sekali, ketika Anda hanya menekan Enter?
+
+Setelah mengujinya secara mandiri, jalankan `check50` dan `style50` dengan mengetik berikut ini di terminal:
 
 ```
 check50 informatikasma/problems/2019/celcius
