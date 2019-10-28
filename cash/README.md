@@ -38,7 +38,7 @@ Program Anda harus berperilaku sesuai contoh di bawah ini.
 $ <u>./cash</u>
 Kembalian: <u>1800</u>
 4
-<pre>
+</pre>
 
 <pre>
 $ <u>./cash</u>
@@ -46,7 +46,7 @@ Kembalian: <u>-1800</u>
 Kembalian: <u>foo</u>
 Kembalian: <u>1800</u>
 4
-```
+</pre>
 
 ### Panduan
 
