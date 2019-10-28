@@ -2,18 +2,6 @@
 
 {% video https://www.youtube.com/watch?v=AGrpmfxNYG8 %}
 
-<div class="fluid-width-video-wrapper my-3" style="padding-top: 56.25%;"><iframe allowfullscreen="" class="border" data-video="" src="https://onedrive.live.com/embed?cid=CEB017B395D032DF&amp;resid=CEB017B395D032DF%214215&amp;authkey=APoFg_87LHVyK-U&amp;em=2&amp;wdAr=1.7777777777777777" name="fitvid0"></iframe></div>
-
-{% spoiler "Transkrip Video" %}
-
-Setiap Anda belanja di toko, kecuali Anda membayar dengan uang pas, Anda akan mendapatkan kembalian. Dengan asumsi bahwa kembalian yang Anda terima memang sesuai, tentunya Anda tidak ingin membawa terlalu banyak koin di dompet Anda. Anda ingin agar kasir memberikan koin sesedikit mungkin.
-
-Sebagai contoh: Katakanlah Anda memiliki kembalian Rp2000. Apakah Anda lebih suka jika kasir memberikan 20 koin Rp100, atau 2 keping Rp1000?
-
-Ternyata ada algoritma untuk itu. Dimana kasir harus mulai memberikan Anda denominasi terbesar dulu, lalu terbesar selanjutnya, seterusnya, dan sebagainya, sedemikian rupa sehingga mereka mengembalikan kembalian Anda dengan jumlah koin sesedikit mungkin. Kita akan mencari tahu algoritma itu dan mengimplementasikannya dalam cash.
-
-{% endspoiler %}
-
 {% next %}
 
 ## Greedy Algorithms
@@ -61,11 +49,11 @@ Kembalian: 1800
 4
 ```
 
-<!-- TODO Walkthrough Video
+TODO Walkthrough Video
 
 ### Panduan
 
-{% video https://www.youtube.com/watch?v=Y3nWGvqt_Cg %} -->
+{% video https://www.youtube.com/watch?v=f9VyhVtgS_8 %}
 
 ### Solusi Pengajar
 
