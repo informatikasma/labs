@@ -124,8 +124,8 @@ Selalu uji program Anda secara mandiri sebelum menggunakan `check50`!
 
 Apakah kode Anda berfungsi seperti yang ditentukan saat Anda memasukkan *input*:
 
-* `212` hasilnya adalah `100`
-* `32` hasilnya adalah `0`
+* `212` menghasilkan `100`?
+* `32` menghasilkan `0`?
 * huruf atau kata?
 * tidak ada input sama sekali, ketika Anda hanya menekan Enter?
 
