@@ -46,7 +46,7 @@ Kembalian: <u>1800</u>
 
 ### Panduan
 
-{% video https://www.youtube.com/watch?v=f9VyhVtgS_8 %}
+{% video https://www.youtube.com/watch?v=gm3_NTIo-VA %}
 
 {% spoiler "Solusi Pengajar" %}
 

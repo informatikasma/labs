@@ -84,7 +84,7 @@ Dapatkah Anda melihat mengapa kode di atas akan mencetak 2 tempat desimal? Sekar
 
 ### Panduan
 
-{% video https://www.youtube.com/watch?v=bVTp3vINuxk %}
+{% video https://www.youtube.com/watch?v=4zyjvC5uOdc %}
 
 {% spoiler "Solusi Pengajar" %}
 
