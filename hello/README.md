@@ -137,7 +137,7 @@ dalam [sandbox ini](http://bit.ly/2Qp0a2g).
 Ingatlah bahwa Anda dapat menggunakan `get_string` sebagai berikut, menyimpan *return value* atau jawaban pengguna dalam variabel yang disebut `nama` dengan tipe `string`.
 
 ```c
-string nama = get_string("What is your nama?\n");
+string nama = get_string("Siapa nama Anda?\n");
 ```
 
 #### Tidak ingat cara memformat `string`?
