@@ -6,7 +6,7 @@ Di masa lalu, jika Anda ingin tahu suhu di luar ruangan, Anda harus melihat sala
 
 ![Thermometer](thermometer.png)
 
-Sebelum adanya alat tersebut, jika Anda ingin tahu suhu di luar, Anda harus berdiri di luar. Sekarang ini, cukup  membuka aplikasi cuaca di ponsel Anda atau mengunjungi situs web pelaporan cuaca untuk mendapatkan suhu saat ini dan ramalan lima hari kedepan. Tidak perlu dipusingkan dengan lingkarang angka di atas atau saudaranya, tabung merkuri.
+Jauh sebelum adanya alat tersebut, jika Anda ingin tahu suhu di luar, Anda harus berdiri di luar. Sekarang ini, Anda cukup membuka aplikasi cuaca di ponsel Anda atau mengunjungi situs web pelaporan cuaca untuk mendapatkan suhu saat ini dan ramalan lima hari kedepan. Tidak perlu dipusingkan dengan lingkarang angka di atas atau saudaranya, tabung merkuri.
 
 Bergantung pada tempat Anda tinggal di dunia, negara Anda menggunakan salah satu dari dua skala suhu utama. Di hampir setiap negara di dunia, termasuk Indonesia, Anda mungkin paling akrab dengan skala Celcius, dan jika Anda mendengar bahwa suhu di luar 30&deg; Anda mungkin akan mencari-cari pakaian renang di lemari pakaian Anda dan mengenakan tabir surya, karena ini adalah hari pantai yang indah. Pada skala Celcius, 0&deg; adalah titik beku air, dan 100&deg; adalah titik didih.
 
@@ -24,7 +24,7 @@ C = (F - 32) * 5 / 9
 
 Perlu diketaui, orang Amerika Serikat, dan juga komputer, menyatakan tanda desimal dengan simbol titik. Maka untuk sementara kita akan menggunakan tanda titik sebagai pembatas desimal.
 
-Mari kita lakukan tes singkat untuk memastikan semuanya berjalan seperti yang diharapkan. Orang-orang di Amerika Serikat tahu suhu tubuh manusia normal adalah 98.6&deg;F (perhatikan tanda titik yang digunakan sebagai pembatas desimal). Jika kita memasukkan "98.6" ke dalam rumus menggantikan &deg;F dan melakukan perhitungan (98.6 dikurangi 32 adalah 66.6, 66.6 dikalikan dengan 5 adalah 333, 333 dibagi 9 adalah 37) kita mendapatkan 37&deg;C yang bagi orang-orang di seluruh dunia tahu bahwa itu suhu tubuh manusia normal. Jadi itu benar. Demikian pula jika kita memasukkan 32&deg;F (titik beku air) ke dalam formula yang dikonversi menjadi 0&deg;C, dan 212&deg;F (titik didih air) tampaknya setara dengan 100&deg;C. Sepertinya semuanya berjalan dengan baik.
+Mari kita lakukan tes singkat untuk memastikan semuanya berjalan seperti yang diharapkan. Orang-orang di Amerika Serikat tahu suhu tubuh manusia normal adalah 98.6&deg;F (perhatikan tanda titik yang digunakan sebagai pembatas desimal). Jika kita memasukkan "98.6" ke dalam rumus menggantikan &deg;F dan melakukan perhitungan (98.6 dikurangi 32 adalah 66.6, 66.6 dikalikan dengan 5 adalah 333, 333 dibagi 9 adalah 37) kita mendapatkan 37&deg;C yang bagi orang-orang di seluruh dunia tahu bahwa itu suhu tubuh manusia normal. Demikian pula jika kita memasukkan 32&deg;F (titik beku air) ke dalam formula yang dikonversi menjadi 0&deg;C, dan 212&deg;F (titik didih air) tampaknya setara dengan 100&deg;C.
 
 {% next %}
 
@@ -58,7 +58,7 @@ Tidak masalah untuk mengedit sendiri setelah melihat *pseudocode* di sini, tetap
 
 {% next %}
 
-Apa pun *pseudocode* Anda, pertama-tama mari kita tuliskan hanya kode C yang meminta (dan meminta kembali, sesuai kebutuhan) pengguna untuk *input*.
+Apa pun *pseudocode* Anda, pertama-tama mari kita tuliskan hanya kode C yang meminta (dan meminta kembali, sesuai kebutuhan) pengguna atas *input*.
 
 Pertama, deklarasikan variabel floating point baru untuk menyimpan derajat Fahrenheit.
 
@@ -70,7 +70,7 @@ Nyatakan *float* lain untuk menampung derajat Celcius, dan tetapkan hasil dari r
 
 Terakhir, cetak hasilnya dengan presisi satu tempat desimal.
 
-{% spoiler "hint" %}
+{% spoiler "Hint" %}
 
 Printf dapat digunakan untuk menentukan berapa banyak tempat setelah titik desimal yang ingin Anda tampilkan kepada pengguna. Misalnya untuk mencetak *float* dengan 2 tempat desimal, ketikkan:
 
@@ -86,7 +86,7 @@ Dapatkah Anda melihat mengapa kode di atas akan mencetak 2 tempat desimal? Sekar
 
 {% video https://www.youtube.com/watch?v=bVTp3vINuxk %}
 
-### Solusi Pengajar
+{% spoiler "Solusi Pengajar" %}
 
 Untuk mencoba implementasi pengajar dari masalah ini, jalankan
 
@@ -95,6 +95,8 @@ Untuk mencoba implementasi pengajar dari masalah ini, jalankan
 ```
 
 dalam [sandbox ini](http://bit.ly/2W3uR1t).
+
+{% endspoiler %}
 
 {% next %}
 
@@ -146,6 +148,6 @@ submit50 informatikasma/problems/2019/celcius
 
 Anda dapat mengulangi pengiriman sebanyak apapun yang Anda inginkan sebelum batas waktu pengumpulan.
 
-Kiriman Anda akan dinilai kebenarannya dalam 2 menit, pada saat itu skor Anda akan muncul di https://submit.cs50.io!
+Kiriman Anda akan dinilai kebenarannya dalam 2 menit, pada saat itu skor Anda akan muncul di [https://submit.cs50.io](https://submit.cs50.io)!
 
 Ini adalah Celcius.
