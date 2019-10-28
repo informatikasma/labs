@@ -33,7 +33,7 @@ Mari kita lakukan tes singkat untuk memastikan semuanya berjalan seperti yang di
 Tulis program yang mengubah suhu dalam Fahrenheit menjadi Celcius, sesuai dengan sampel *output* di bawah ini, di mana teks yang digarisbawahi menunjukkan *input* pengguna.
 
 <pre>
-$ <u>./fahrenheit</u>
+$ <u>./celcius</u>
 F: <u>212</u>
 C: 100.0
 </pre>
