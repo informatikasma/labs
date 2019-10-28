@@ -1,13 +1,5 @@
 # Celcius
 
-<!-- TODO Introduction Video
-
-{% video https://www.youtube.com/watch?v=sxXQ-jgUIg8 %} -->
-
-<div class="fluid-width-video-wrapper my-3" style="padding-top: 56.25%;"><iframe allowfullscreen="" class="border" data-video="" src="https://onedrive.live.com/embed?cid=CEB017B395D032DF&amp;resid=CEB017B395D032DF%214213&amp;authkey=AJoHMPZkGwp0ItI&amp;em=2&amp;wdAr=1.7777777777777777" name="fitvid0"></iframe></div>
-
-{% next %}
-
 ## Awal yang Dingin
 
 Di masa lalu, jika Anda ingin tahu suhu di luar ruangan, Anda harus melihat salah satu yang seperti ini, yang mungkin dipasang di luar di rumah Anda.
@@ -90,11 +82,9 @@ Dapatkah Anda melihat mengapa kode di atas akan mencetak 2 tempat desimal? Sekar
 
 {% endspoiler %}
 
-<!-- TODO Walkthrough Video
-
 ### Panduan
 
-{% video https://www.youtube.com/watch?v=Y3nWGvqt_Cg %} -->
+{% video https://www.youtube.com/watch?v=bVTp3vINuxk %}
 
 ### Solusi Pengajar
 
