@@ -70,7 +70,7 @@ Agar kami dapat mengotomatiskan beberapa pengujian kode Anda, kami meminta agar 
 
 ### Petunjuk
 
-Pertama, Anda harus meminta jumlah hari dalam sebulan. Jika pengguna tidak mengetikkan 28, 29, 30, atau 31, program harus meminta pengguna untuk mencoba lagi.
+Pertama, Anda harus meminta jumlah hari dalam sebulan. Jika pengguna tidak mengetikkan 28, 29, 30, atau 31, program harus meminta pengguna untuk mencoba lagi. Anda mungkin harus menggunakan gabungan dari dua *Boolean expression* pada bagian kondisi *loop* Anda.
 
 {% spoiler "Menggabungkan Dua *Boolean Expression*%}
 
