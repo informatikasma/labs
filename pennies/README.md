@@ -70,9 +70,31 @@ Agar kami dapat mengotomatiskan beberapa pengujian kode Anda, kami meminta agar 
 
 ### Petunjuk
 
-Pertama, Anda harus meminta jumlah hari dalam sebulan. Jika pengguna tidak mengetikkan 28, 29, 30, atau 31, program harus meminta pengguna untuk mencoba lagi. Anda mungkin harus menggunakan gabungan dari dua *Boolean expression* pada bagian kondisi *loop* Anda.
+Pertama, Anda harus meminta jumlah hari dalam sebulan. Jika pengguna tidak mengetikkan 28, 29, 30, atau 31, program harus meminta pengguna untuk mencoba lagi.
 
-{% spoiler "Menggabungkan Dua *Boolean Expression*%}
+Selanjutnya Anda akan meminta jumlah sen pada hari pertama. Ini harus bilangan bulat positif.
+
+Apakah Anda ingat cara memvalidasi input pengguna?
+
+{% spoiler "Memvalidasi input pengguna" %}
+
+Anda dapat menggunakan *loop* `do while`,
+
+```c
+do
+{
+    // Lakukan sesuatu
+}
+while (kondisi);
+```
+
+Buatlah kondisi yang mana jika kondisi tersebut terpenuhi, maka program akan bertanya kembali pada pengguna.
+
+{% endspoiler %}
+
+Anda mungkin harus menggunakan gabungan dari dua *Boolean expression* pada kondisi validasi input jumlah hari.
+
+{% spoiler "Menggabungkan dua *Boolean expression*%}
 
 Untuk menggabungkan dua *Boolean expression*, Anda dapat menggunakan operator berikut:
 
@@ -113,14 +135,10 @@ Berdasarkan operator-operator tersebut, kira-kira operator apa yang cocok diguna
 
 {% endspoiler %}
 
-Selanjutnya Anda akan meminta jumlah sen pada hari pertama. Ini harus bilangan bulat positif.
-
-Apakah Anda ingat cara memvalidasi input pengguna?
-
-Ingat, Anda harus melacak total uang yang akan diterima dalam tipe `long long`, sesuai spesifikasi di atas. Anda bisa mendeklarasikan `long long` seperti ini:
+Ingat, Anda harus melacak total uang yang akan diterima dalam tipe `long`, sesuai spesifikasi di atas. Anda bisa mendeklarasikan `long` seperti ini:
 
 ```
-long long total;
+long total;
 ```
 
 dan inisialisasi dengan menetapkan nilai awal.
@@ -134,6 +152,28 @@ pow(2, n)
 di *library* `math.h`. Fungsi tersebut sama seperti operasi matematika pangkat, seperti <code>2<sup>n</sup></code>.
 
 Dan tentu saja cetak total Anda sebagai rupiah dan sen, dengan tanda Rp di depan, dan tepat dua tempat desimal.
+
+{% spoiler "Output tidak menghasilkan bilangan desimal?" %}
+
+Tipe data yang digunakan haruslah yang mendukung bilangan desimal. Tipe `long` hanya mendukung bilangan bulat. Anda membutuhkan tipe `double`, yang merupakan saudara dari `float` namun dapat menampung bilangan lebih besar, yaitu 8 byte (64 bit).
+
+{% endspoiler %}
+
+{% spoiler "Output selalu menghasilkan `.00`?" %}
+
+Pada saat kita menghitung total uang kita menggunakan tipe `long`, sedangkan saat diubah ke rupiah kita menggunakan tipe `double`. Meskipun tidak akan menyebabkan *error* pada saat proses *compiling*, namun output tidak akan sesuai yang diharapkan.
+
+Tipe `long` tidak dapat menyimpan bilangan desimal, sehingga kita harus menggunakan *type casting* seperti ini:
+
+```c
+long bilanganbulat = 1;
+double hasil = (double) angka / 10;
+printf("%f", hasil);    // 0.100000
+```
+
+Perhatikan bahwa kita menggunakan `(double)` untuk mengkonversi variabel `bilanganbulat` yang awalnya bertipe `long` menjadi tipe `double`.
+
+{% endspoiler %}
 
 {% next %}
 
