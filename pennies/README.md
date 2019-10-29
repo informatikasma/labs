@@ -177,9 +177,9 @@ Perhatikan bahwa kita menggunakan `(double)` untuk mengkonversi variabel `bilang
 
 {% next %}
 
-<!-- ### Panduan -->
+### Panduan
 
-<!-- {% video https://www.youtube.com/watch?v=gm3_NTIo-VA %} -->
+{% video https://www.youtube.com/watch?v=TxCf7OfvJ0k %}
 
 <!-- {% spoiler "Solusi Pengajar" %}
 
