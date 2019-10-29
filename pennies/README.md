@@ -72,6 +72,47 @@ Agar kami dapat mengotomatiskan beberapa pengujian kode Anda, kami meminta agar 
 
 Pertama, Anda harus meminta jumlah hari dalam sebulan. Jika pengguna tidak mengetikkan 28, 29, 30, atau 31, program harus meminta pengguna untuk mencoba lagi.
 
+{% spoiler "Menggabungkan Dua *Boolean Expression*%}
+
+Untuk menggabungkan dua *Boolean expression*, Anda dapat menggunakan operator berikut:
+
+* `&&`, operator AND, akan menghasilkan `true` jika *kedua ekspresi* sebelum dan sesudahnya bernilai `true`
+* `||`, operator OR, akan menghasilkan `true` jika *salah satu ekspresi* sebelum dan sesudahnya bernilai `true`
+* `!`. operator NOT, akan menghasilkan *kebalikan dari ekspresi* apapun setelahnya.
+
+Sebagai contoh:
+
+```c
+bool a = 3 < 5;     // true
+bool b = 2 >= 8;    // false
+```
+
+Variabel `a` berisi `true` karena `3 < 5` memang benar. Variabel `b` berisi `false` karena `2 >= 8` tentunya salah.
+
+Sekarang, lihatlah kode berikut:
+
+```c
+bool c = a && b;    // false
+```
+
+Variabel `c` berisi `false` karena operator `&&` hanya akan menghasilkan `true` jika `a` dan `b` bernilai `true`.
+
+```c
+bool d = a || b;    // true
+```
+
+Variabel `d` berisi `true` karena operator `||` akan menghasilkan `true` jika salah satu dari `a` atau `b` bernilai `true`.
+
+```c
+bool e = !d;        // false
+```
+
+Variabel `e` berisi `false` karena operator `!` akan memberikan kebalikan dari nilai `d`.
+
+Berdasarkan operator-operator tersebut, kira-kira operator apa yang cocok digunakan untuk mengevaluasi kondisi jumlah hari yang dapat diinputkan oleh pengguna?
+
+{% endspoiler %}
+
 Selanjutnya Anda akan meminta jumlah sen pada hari pertama. Ini harus bilangan bulat positif.
 
 Apakah Anda ingat cara memvalidasi input pengguna?
