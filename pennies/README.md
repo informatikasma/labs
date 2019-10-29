@@ -167,6 +167,8 @@ Untuk memastikan Anda mendapatkan poin penuh untuk gaya kode, Anda mungkin ingin
 style50 pennies.c
 ```
 
+{% next %}
+
 ## Cara Mengirimkan
 
 Jalankan di bawah ini, masuk dengan nama pengguna dan kata sandi GitHub Anda saat diminta. Untuk keamanan, Anda akan melihat tanda bintang (`*`) alih-alih karakter sebenarnya dalam kata sandi Anda.
