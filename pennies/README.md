@@ -27,7 +27,7 @@ Bagaimanapun, mengapa uang sen? Eksponensial. Jumlah uang itu bertambah dua kali
   = 1073741824
 ```
 
-Secara lebih ringkas, itu sama dengan `1 x 2`<sup>`30`</sup>. Konversikan uang itu menjadi Rupiah (dengan dibagi 100) dan Anda mendapatkan, apa, lebih dari Rp10.000.000? Hanya pada hari tersebut? Gila. 😲
+Secara lebih ringkas, itu sama dengan <code>1 x 2<sup>30</sup></code>. Konversikan uang itu menjadi Rupiah (dengan dibagi 100) dan Anda mendapatkan, apa, lebih dari Rp10.000.000? Hanya pada hari tersebut? Gila. 😲
 
 Bagaimana jika Anda diberi lebih dari satu sen pada hari pertama? Atau bulan Februari, Anda akan kehilangan berapa juta? (Lebih baik untuk mengambil uang pada bulan Januari, Maret, Mei, Juli, Agustus, Oktober, atau Desember.) Mari kita cari tahu.
 
