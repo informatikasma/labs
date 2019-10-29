@@ -121,13 +121,13 @@ Compile kode Anda, kemudian jalankan program.
 Anda lupa cara compile kode?
 
 ```bash
-make cash
+make pennies
 ```
 
 Anda lupa cara menjalankan program?
 
 ```bash
-./cash
+./pennies
 ```
 
 Selalu uji program Anda secara mandiri sebelum menggunakan `check50`!
