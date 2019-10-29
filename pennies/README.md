@@ -1,6 +1,6 @@
 # Pennies
 
-## Apa yang harus dilakukan
+## Apa yang Harus Dilakukan
 
 Implementasikan, dalam `pennies.c` di sebelah kanan, sebuah program yang menghitung total dari mendapatkan jumlah uang berlipat ganda setiap hari selama sebulan, seperti di bawah ini.
 
