@@ -17,7 +17,7 @@ Rp10737418.23
 
 Jika suatu saat diberikan pilihan antara Rp10.000.000 atau [uang sen](https://id.wikipedia.org/wiki/Sen_(mata_uang)) selama sebulan, di mana Anda menerima satu sen pada hari pertama, dua sen pada hari kedua, empat sen pada hari ketiga, dan seterusnya… ambil uang sen itu!
 
-Bagaimanapun, mengapa uang sen? Eksponensial. Jumlah uang itu bertambah dua kali lipat setiap harinya. Pikirkan berapa banyak uang yang akan Anda terima pada hari ke-31 saja, belum lagi pada hari-hari setelahnya:
+Mengapa uang sen? Eksponensial. Jumlah uang itu bertambah dua kali lipat setiap harinya. Pikirkan berapa banyak uang yang akan Anda terima pada hari ke-31 saja, belum lagi pada hari-hari setelahnya:
 
 ```
 1 × 2 × 2 × 2 × 2 × 2 × 2 × 2 × 2 × 2 × 2
