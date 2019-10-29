@@ -29,13 +29,13 @@ Mengapa uang sen? Eksponensial. Jumlah uang itu bertambah dua kali lipat setiap 
 
 Secara lebih ringkas, itu sama dengan <code>1 x 2<sup>30</sup></code>. Konversikan uang itu menjadi Rupiah (dengan dibagi 100) dan Anda mendapatkan, apa, lebih dari Rp10.000.000? Hanya pada hari tersebut? Gila. 😲
 
-Bagaimana jika Anda diberi lebih dari satu sen pada hari pertama? Atau bulan Februari, Anda akan kehilangan berapa juta? (Lebih baik untuk mengambil uang pada bulan Januari, Maret, Mei, Juli, Agustus, Oktober, atau Desember.) Mari kita cari tahu.
+Bagaimana jika Anda diberi lebih dari satu sen pada hari pertama? Atau pada bulan Februari, Anda akan kehilangan berapa juta? (Lebih baik untuk mengambil uang pada bulan Januari, Maret, Mei, Juli, Agustus, Oktober, atau Desember.) Mari kita cari tahu.
 
 {% next %}
 
 ## Detail Implementasi
 
-Implementasikan, dalam file bernama `pennies.c`, sebuah program yang pada awalnya menanyakan kepada pengguna berapa hari ada dalam sebulan dan kemudian bertanya kepada pengguna berapa banyak uang yang akan ia terima pada hari pertama bulan itu. Program kemudian harus menghitung jumlah yang akan diterima pengguna secara total pada akhir bulan (tidak hanya pada hari terakhir) jika uang yang diberikan itu digandakan setiap hari kecuali pada hari pertama, dinyatakan bukan sebagai sen saja, tetapi sebagai Rupiah dan sen . Jika pengguna tidak mengetikkan 28, 29, 30, atau 31 untuk jumlah hari dalam sebulan, program harus meminta pengguna untuk mencoba lagi. Jika pengguna tidak memasukkan bilangan bulat positif untuk jumlah uang hari pertama, program harus meminta pengguna untuk mencoba lagi.
+Implementasikan, dalam file bernama `pennies.c`, sebuah program yang pada awalnya menanyakan kepada pengguna berapa hari ada dalam sebulan dan kemudian bertanya kepada pengguna berapa banyak uang yang akan ia terima pada hari pertama bulan itu. Program kemudian harus menghitung jumlah yang akan diterima pengguna secara total pada akhir bulan (tidak hanya pada hari terakhir) jika uang yang diberikan itu digandakan setiap hari kecuali pada hari pertama, dinyatakan bukan sebagai sen saja, tetapi sebagai Rupiah dan sen. Jika pengguna tidak mengetikkan 28, 29, 30, atau 31 untuk jumlah hari dalam sebulan, program harus meminta pengguna untuk mencoba lagi. Jika pengguna tidak memasukkan bilangan bulat positif untuk jumlah uang hari pertama, program harus meminta pengguna untuk mencoba lagi.
 
 Misalnya, program Anda mungkin berperilaku sebagai berikut.
 
@@ -54,13 +54,13 @@ Perhatikan bagaimana output tersebut menunjukkan bahwa program harus meminta kem
 
 Bagaimana memulainya? Kemungkinannya adalah Anda akan membutuhkan beberapa loop, yang dapat digunakan untuk meminta (dan berpotensi meminta kembali) pengguna berapa jumlah hari, dan loop yang lainnya untuk meminta (dan berpotensi meminta kembali) pengguna jumlah sen pada hari pertama. Bagaimana cara mendapatkan kedua angka itu? Mungkin *Library CS50* menawarkan beberapa opsi?
 
-Anda juga dapat menemukan fungsi dalam file header `math.h` yang dapat membantu saat menangani masalah ini. Lihat [CS50 Programmer's Manual] (https://man.cs50.io/) untuk melihat fungsi mana yang mungkin digunakan. Pastikan, jika Anda menggunakan salah satu dari fungsi itu, untuk menempatkan baris kodenya di bagian atas file `pennies.c` Anda:
+Anda juga dapat menemukan fungsi dalam file header `math.h` yang dapat membantu saat menangani masalah ini. Lihat [CS50 Programmer's Manual](https://man.cs50.io/) untuk melihat fungsi mana yang mungkin digunakan. Pastikan, jika Anda menggunakan salah satu dari fungsi itu, untuk menempatkan baris kode berikut di bagian atas file `pennies.c` Anda:
 
 ```c
 #include <math.h>
 ```
 
-Tentu saja, jika Anda menyimpan jumlah uang yang diterima dalam `int` (yang hanya dapat menyimpan 32 bit), totalnya akan dibatasi oleh `2`<sup>`31`</sup>` - 1` sen. (Mengapa `2`<sup>`31`</sup> dan bukan `2`<sup>`32`</sup>? Dan mengapa `- 1` dari `2`<sup>`31`</sup>?) Karena itu, maka, lebih baik menyimpan total sen Anda dengan tipe `long long`, sehingga pengguna dapat menyimpan hingga 64 bit. (Jangan khawatir jika total hasil perhitungan meluap lebih dari 64 bit dan bahkan menjadi negatif; anggaplah itu hukuman akibat serakah!)
+Tentu saja, jika Anda menyimpan jumlah uang yang diterima dalam `int` (yang hanya dapat menyimpan 32 bit), totalnya akan dibatasi oleh <code>2<sup>31</sup> - 1</code> sen. (Mengapa <code>2<sup>31</sup></code> dan bukan <code>2<sup>32</sup></code>? Dan mengapa `- 1` dari <code>2<sup>31</sup></code>?) Karena itu, maka, lebih baik menyimpan total sen Anda dengan tipe `long long`, sehingga pengguna dapat menyimpan hingga 64 bit. (Jangan khawatir jika total hasil perhitungan meluap lebih dari 64 bit dan bahkan menjadi negatif; anggaplah itu hukuman akibat serakah!)
 
 Pastikan untuk memformat total uang sebagai rupiah dan sen (dengan hanya 2 tempat desimal), diawali dengan tanda Rp, sama seperti output di atas. Anda tidak perlu memasukkan titik pemisah ribuan, seperti yang biasanya Anda lakukan.
 
@@ -90,27 +90,27 @@ Sekarang Anda harus menambahkan jumlah uang yang Anda dapatkan pada hari ke 2, h
 pow(2, n)
 ```
 
-di *library* `math.h`. Fungsi tersebut sama seperti operasi matematika pangkat, seperti `2`<sup>`n`</sup>.
+di *library* `math.h`. Fungsi tersebut sama seperti operasi matematika pangkat, seperti <code>2<sup>n</sup></code>.
 
 Dan tentu saja cetak total Anda sebagai rupiah dan sen, dengan tanda Rp di depan, dan tepat dua tempat desimal.
 
 {% next %}
 
-### Panduan
+<!-- ### Panduan -->
 
 <!-- {% video https://www.youtube.com/watch?v=gm3_NTIo-VA %} -->
 
-{% spoiler "Solusi Pengajar" %}
+<!-- {% spoiler "Solusi Pengajar" %}
 
 Untuk mencoba implementasi pengajar dari masalah ini, jalankan
 
 ```bash
-./cash
+./pennies
 ```
 
 dalam [sandbox ini](http://bit.ly/2o86JOt).
 
-{% endspoiler %}
+{% endspoiler %} -->
 
 ### Cara Menguji Kode Anda
 
