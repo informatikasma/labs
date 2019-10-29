@@ -167,7 +167,7 @@ Tipe `long` tidak dapat menyimpan bilangan desimal, sehingga kita harus mengguna
 
 ```c
 long bilanganbulat = 1;
-double hasil = (double) angka / 10;
+double hasil = (double) bilanganbulat / 10;
 printf("%f", hasil);    // 0.100000
 ```
 
