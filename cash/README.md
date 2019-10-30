@@ -46,11 +46,7 @@ Kembalian: <u>1800</u>
 
 ### Petunjuk
 
-Pertama, Anda harus meminta jumlah hari dalam sebulan. Jika pengguna tidak mengetikkan 28, 29, 30, atau 31, program harus meminta pengguna untuk mencoba lagi.
-
-Selanjutnya Anda akan meminta jumlah sen pada hari pertama. Ini harus bilangan bulat positif.
-
-Apakah Anda ingat cara memvalidasi input pengguna?
+Pertama, Anda harus memvalidasi input pengguna, memastikan bahwa input yang diberikan adalah bilangan positif.
 
 {% spoiler "Memvalidasi input pengguna" %}
 
