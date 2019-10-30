@@ -60,7 +60,7 @@ Anda juga dapat menemukan fungsi dalam file header `math.h` yang dapat membantu 
 #include <math.h>
 ```
 
-Tentu saja, jika Anda menyimpan jumlah uang yang diterima dalam `int` (yang hanya dapat menyimpan 32 bit), totalnya akan dibatasi oleh <code>2<sup>31</sup> - 1</code> sen. (Mengapa <code>2<sup>31</sup></code> dan bukan <code>2<sup>32</sup></code>? Dan mengapa `- 1` dari <code>2<sup>31</sup></code>?) Karena itu, maka, lebih baik menyimpan total sen Anda dengan tipe `long long`, sehingga pengguna dapat menyimpan hingga 64 bit. (Jangan khawatir jika total hasil perhitungan meluap lebih dari 64 bit dan bahkan menjadi negatif; anggaplah itu hukuman akibat serakah!)
+Tentu saja, jika Anda menyimpan jumlah uang yang diterima dalam `int` (yang hanya dapat menyimpan 32 bit), totalnya akan dibatasi oleh <code>2<sup>31</sup> - 1</code> sen. (Mengapa <code>2<sup>31</sup></code> dan bukan <code>2<sup>32</sup></code>? Dan mengapa `- 1` dari <code>2<sup>31</sup></code>?) Karena itu, maka, lebih baik menyimpan total sen Anda dengan tipe `long`, sehingga pengguna dapat menyimpan hingga 64 bit. (Jangan khawatir jika total hasil perhitungan meluap lebih dari 64 bit dan bahkan menjadi negatif; anggaplah itu hukuman akibat serakah!)
 
 Pastikan untuk memformat total uang sebagai rupiah dan sen (dengan hanya 2 tempat desimal), diawali dengan tanda Rp, sama seperti output di atas. Anda tidak perlu memasukkan titik pemisah ribuan, seperti yang biasanya Anda lakukan.
 
