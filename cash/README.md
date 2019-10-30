@@ -44,6 +44,30 @@ Kembalian: <u>1800</u>
 4
 </pre>
 
+### Petunjuk
+
+Pertama, Anda harus meminta jumlah hari dalam sebulan. Jika pengguna tidak mengetikkan 28, 29, 30, atau 31, program harus meminta pengguna untuk mencoba lagi.
+
+Selanjutnya Anda akan meminta jumlah sen pada hari pertama. Ini harus bilangan bulat positif.
+
+Apakah Anda ingat cara memvalidasi input pengguna?
+
+{% spoiler "Memvalidasi input pengguna" %}
+
+Anda dapat menggunakan *loop* `do while`,
+
+```c
+do
+{
+    // Lakukan sesuatu
+}
+while (kondisi);
+```
+
+Buatlah kondisi yang mana jika kondisi tersebut terpenuhi, maka program akan bertanya kembali pada pengguna.
+
+{% endspoiler %}
+
 ### Panduan
 
 {% video https://www.youtube.com/watch?v=gm3_NTIo-VA %}
