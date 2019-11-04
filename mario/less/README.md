@@ -152,7 +152,7 @@ Tersimpan: <u>4</u>
 * Ingat bahwa Anda dapat mencetak `int` dengan` printf` menggunakan `%i`.
 * Ingat bahwa Anda bisa mendapatkan integer dari pengguna dengan `get_int`.
 * Ingat bahwa `get_int` ada dalam header `cs50.h`.
-* Ingat bahwa kita meminta pengguna untuk bilangan bulat positif di kelas melalui [`positive.c`] (https://sandbox.cs50.io/b56865fd-c861-425f-aad7-4adcf6831139).
+* Ingat bahwa kita meminta pengguna untuk bilangan bulat positif di kelas melalui [`positive.c`](https://sandbox.cs50.io/b56865fd-c861-425f-aad7-4adcf6831139).
 
 {% endspoiler %}
 
