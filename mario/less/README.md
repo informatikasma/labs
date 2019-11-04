@@ -135,7 +135,7 @@ Anda juga mungkin harus memuat header `stdio.h`. Gunakan sintak berikut di bagia
 
 Apa pun pseudocode Anda, pertama-tama mari kita tuliskan hanya kode C yang meminta (dan meminta kembali, sesuai kebutuhan) pengguna untuk input.
 
-Mintalah input pengguna, kemudian lakukan validasi untuk mengecek apakah bilangan yang dimasukkan oleh pengguna merupakan bilangan positif antara 1 dan 8, inlusif. Kemudian langsung cetak nilai variabel tersebut untuk memastikan (oleh diri Anda sendiri) bahwa Anda memang berhasil memvalidasi input pengguna, seperti di bawah ini.
+Mintalah input pengguna, kemudian lakukan validasi untuk mengecek apakah bilangan yang dimasukkan oleh pengguna merupakan bilangan positif antara 1 dan 8, inklusif. Kemudian langsung cetak nilai variabel tersebut untuk memastikan (oleh diri Anda sendiri) bahwa Anda memang berhasil memvalidasi input pengguna, seperti di bawah ini.
 
 <pre>
 $ <u>./mario</u>
