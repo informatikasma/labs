@@ -181,7 +181,7 @@ Modifikasi `mario.c` di kanan sedemikian rupa sehingga tidak lagi hanya mencetak
 
 * Perlu diingat bahwa *hash* hanyalah karakter seperti yang lain, sehingga Anda dapat mencetaknya dengan `printf`.
 * Sama seperti Scratch memiliki blok Repeat, begitu juga C memiliki loop `for`, di mana Anda dapat melakukan pengulangan beberapa kali. Mungkin pada setiap iterasi (pengulangan), *i*, Anda bisa mencetak hash dengan jumlah *i*?
-* Loop Anda sebenarnya dapat "beranak", iterasi (pengulangan) dengan satu variabel (mis., `i`) di loop "luar" dan lainnya (mis., `j`) di loop "dalam". Sebagai contoh, ini adalah cara Anda mencetak balok persegi dengan tinggi dan lebar `n`, di bawah. Tentu saja, itu bukan piramida yang inginkan!
+* Loop Anda sebenarnya dapat "beranak", iterasi (pengulangan) dengan satu variabel (mis., `i`) di loop "luar" dan lainnya (mis., `j`) di loop "dalam". Sebagai contoh, ini adalah cara Anda mencetak balok persegi dengan tinggi dan lebar `n`, di bawah. Tentu saja, itu bukan piramida yang Anda inginkan!
 
     ```
     for (int i = 0; i < n; i++)
