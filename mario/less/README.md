@@ -87,7 +87,7 @@ Bagaimana memulainya? Mari kita mendekati masalah ini selangkah demi selangkah.
 
 ## Pseudocode
 
-Pertama, tuliskan dalam `pseudocode.txt` di sebelah kanan beberapa pseudocode yang mengimplementasikan program ini, walaupun tidak (belum!) yakin bagaimana cara menuliskannya dalam kode. Tidak ada cara yang tepat untuk menulis pseudocode, tetapi kalimat bahasa Inggris yang singkat sudah cukup.
+Pertama, tuliskan dalam `pseudocode.txt` di sebelah kanan beberapa pseudocode yang mengimplementasikan program ini, walaupun tidak (belum!) yakin bagaimana cara menuliskannya dalam kode. Tidak ada cara yang tepat untuk menulis pseudocode, tetapi kalimat bahasa Indonesia yang singkat sudah cukup.
 
 Ingatlah bagaimana kita menulis pseudocode untuk menemukan Ucup. Kemungkinan pseudocode Anda akan menggunakan (atau Seakan menggunakan!) satu atau lebih fungsi, kondisi, ekspresi Boolean, loop, dan/atau variabel.
 
