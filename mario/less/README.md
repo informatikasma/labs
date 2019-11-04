@@ -217,7 +217,7 @@ Ubah `mario.c` sedemikian rupa sehingga dapat melakukan hal itu!
 
 {% spoiler "Petunjuk" %}
 
-Perhatikan bagaimana jumlah titik yang dibutuhkan pada setiap baris adalah "kebalikan" dari jumlah hash baris tersebut. Untuk piramida dengan tinggi 8, seperti di atas, baris pertama hanya memiliki 1 hash dan dengan demikian 7 titik. Baris terbawah, sementara itu, memiliki 8 hash dan dengan demikian 0 titik. Melalui rumus apa (atau aritmatika, sebenarnya) yang memungkinkan Anda mencetak titik sebanya itu?
+Perhatikan bagaimana jumlah titik yang dibutuhkan pada setiap baris adalah "kebalikan" dari jumlah hash baris tersebut. Untuk piramida dengan tinggi 8, seperti di atas, baris pertama hanya memiliki 1 hash dan dengan demikian 7 titik. Baris terbawah, sementara itu, memiliki 8 hash dan dengan demikian 0 titik. Melalui rumus apa (atau aritmatika, sebenarnya) yang memungkinkan Anda mencetak titik sebanyak itu?
 
 {% endspoiler %}
 
