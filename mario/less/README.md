@@ -255,9 +255,9 @@ Jalankan di bawah ini untuk mengevaluasi gaya kode Anda menggunakan `style50`.
 style50 mario.c
 ```
 
-{% next %}
+{% next "Siap Mengirim?" %}
 
-## How to Submit
+## Cara Mengirim
 
 Jalankan di bawah ini, masuk dengan nama pengguna dan kata sandi GitHub Anda saat diminta. Untuk keamanan, Anda akan melihat tanda bintang (`*`) alih-alih karakter sebenarnya dalam kata sandi Anda.
 
