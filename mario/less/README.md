@@ -244,7 +244,7 @@ Yang tersisa sekarang hanyalah hiasan akhir! Ubah `mario.c` sedemikian rupa sehi
 Jalankan di bawah ini untuk mengevaluasi ketepatan kode Anda menggunakan `check50`. Tapi pastikan untuk mengkompilasi dan mengujinya sendiri juga!
 
 ```
-check50 informatikasma/problems/2019/mario
+check50 informatikasma/problems/2019/mario/less
 ```
 
 ### Style
@@ -262,7 +262,7 @@ style50 mario.c
 Jalankan di bawah ini, masuk dengan nama pengguna dan kata sandi GitHub Anda saat diminta. Untuk keamanan, Anda akan melihat tanda bintang (`*`) alih-alih karakter sebenarnya dalam kata sandi Anda.
 
 ```bash
-submit50 informatikasma/problems/2019/mario
+submit50 informatikasma/problems/2019/mario/less
 ```
 
 Anda dapat mengulangi pengiriman sebanyak apapun yang Anda inginkan sebelum batas waktu pengumpulan.
